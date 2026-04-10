@@ -1,0 +1,5 @@
+.obsidian/
+.trash/
+raw/*.pdf
+.DS_Store
+node_modules/
