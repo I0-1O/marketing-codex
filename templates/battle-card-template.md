@@ -11,7 +11,6 @@ updated: 2026-04-10
 > One page. For reps in active competitive deals.
 
 ---
-
 ## Win Themes
 
 *Three reasons we beat them. Lead with outcomes, not features.*
