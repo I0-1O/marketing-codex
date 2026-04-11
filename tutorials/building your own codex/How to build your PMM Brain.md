@@ -90,7 +90,7 @@ This is where the magic happens. You'll paste a single prompt into Claude Code a
     claude
     ```
     
-1. Copy and Paste the entire contents of the [[Bootstrap]] prompt file into Claude Code.
+1. Copy and Paste the entire contents of the [Bootstrap](./Bootstrap.md) prompt file into Claude Code.
 2. Let Claude Code run. It will create your folder structure, CLAUDE.md, starter skills, templates, and initialize git.
 3. When it finishes, switch to Obsidian. Your vault should now be populated with the full wiki scaffold.
 
@@ -120,9 +120,6 @@ Once scaffolded, start a Claude Code session in your vault directory and use the
 > /query What are the key differentiators Forrester identified for leaders in DPA?
 > /build battle-card --competitor Appian
 ```
-
-## Bootstrap Prompt
-Copy the contents of the [[Bootstrap]] file and paste it into Claude Code.
 
 # Tips
 - **Start by ingesting sources you already have.** Drop PDFs, analyst reports, or competitor blog posts into `raw/` and run `/ingest`. The wiki compounds fast.
