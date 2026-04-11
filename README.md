@@ -39,7 +39,8 @@ This repo contains generic PMM knowledge. To add company-specific content:
 3. Company-specific pages use the same frontmatter schemas with `scope: company`
 4. Pull upstream changes from the generic repo without conflicts
 
-## Setup
+## Setting up your own brain
+See  [How to build your PMM Brain](./tutorials/building%20your%20own%20codex/How%20to%20build%20your%20PMM%20Brain.md) in the tutorials folder under "building your own codex"
 1. Clone the repo
 2. Open the folder as an Obsidian vault
 3. Install the Obsidian Git plugin for sync
