@@ -6,22 +6,17 @@
 
 ## Sources
 
-<!-- wiki/sources/ pages listed here -->
-
-*(none yet)*
+- [[marketingskills-coreyhaines31]] — Marketing Skills for AI Agents (Corey Haines, GitHub repo, 40+ markdown skills for AI coding agents)
 
 ---
 
 ## Concepts
 
-<!-- wiki/concepts/ pages listed here -->
-
-*(none yet)*
+- [[ai-agent-skills-for-marketing]] — Pattern for packaging marketing workflows as markdown skill files for AI coding agents
 
 ---
 
 ## Entities
 
-<!-- wiki/entities/ pages listed here -->
-
-*(none yet)*
+### People
+- [[corey-haines]] — Marketer, creator of marketingskills repo, runs Conversion Factory and Swipe Files
