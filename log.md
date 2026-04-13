@@ -3,6 +3,8 @@
 Reverse-chronological activity log. Appended by `/ingest`, `/lint`, `/build`, and session end.
 
 ## 2026-04-13
+- **updated**: skills/messaging-framework.md — major rewrite from SKILL_messaging_framework.md + Master_Messaging_Document_Guide.md; merged skill + guide into single process; removed Orion-specific references, time-constrained shortcuts section; added ICP section, "why now" input, pillar construction rules, common mistakes, competitive framing rules; linked [[pmm-writing-voice]], [[master-messaging-document]], [[problem-first-messaging]], [[benefit-ladder]]
+- **updated**: templates/messaging-framework-template.md — major upgrade from Master_Messaging_Template.md; added ICP table, personas with "what they'd do instead" column, per-audience value props section, partner messaging section, proof points with sourcing notes; pillar structure now full pain→use cases→features→VP→outcomes sequence
 - **created**: skills/pmm-writing-voice.md — ported from SKILL_writing_style.md; reformatted to skill schema; trimmed for modern LLMs; cross-referenced [[ai-voice-tells-in-marketing-copy]], [[marketing-voice-and-pov]], [[benefit-ladder]]; removed redundant before/after examples and competitive claims block; kept em dash rule, comma chain rule, banned word list, and editing checklist
 - **updated**: wiki/index.md — added [[pmm-writing-voice]] to Skills section
 - **created**: tutorials/stop-building-ugly-slides/stop-building-ugly-slides.md — primer linking to PPTX deck (Dropbox), cheat sheet PDF (Dropbox), and AI skill
