@@ -17,6 +17,7 @@
 ## Skills
 
 - [[slide-deck]] — Build a story-driven slide deck plan with per-slide content, visual direction, and speaker notes
+- [[pmm-writing-voice]] — Voice constraints and editing checklist for marketing copy; load before any drafting or review session
 
 ---
 

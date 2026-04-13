@@ -3,6 +3,8 @@
 Reverse-chronological activity log. Appended by `/ingest`, `/lint`, `/build`, and session end.
 
 ## 2026-04-13
+- **created**: skills/pmm-writing-voice.md — ported from SKILL_writing_style.md; reformatted to skill schema; trimmed for modern LLMs; cross-referenced [[ai-voice-tells-in-marketing-copy]], [[marketing-voice-and-pov]], [[benefit-ladder]]; removed redundant before/after examples and competitive claims block; kept em dash rule, comma chain rule, banned word list, and editing checklist
+- **updated**: wiki/index.md — added [[pmm-writing-voice]] to Skills section
 - **created**: tutorials/stop-building-ugly-slides/stop-building-ugly-slides.md — primer linking to PPTX deck (Dropbox), cheat sheet PDF (Dropbox), and AI skill
 - **created**: tutorials/stop-building-ugly-slides/cheat-sheet.md — vault-native cheat sheet with updated Dropbox links, wikilinked to skill and primer
 - **created**: skills/slide-deck.md — slide deck builder skill; ported from external file with encoding fixes, schema frontmatter, genericized examples, added Inputs/Process/Example Usage sections
