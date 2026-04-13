@@ -2,6 +2,31 @@
 
 Reverse-chronological activity log. Appended by `/ingest`, `/lint`, `/build`, and session end.
 
+## 2026-04-12 (session 2, ingest 3)
+- **ingested**: articles/benefit-ladder-copy-lands-one-tier-too-low.md (Brian Rieb, own article)
+- **created**: wiki/sources/benefit-ladder-copy-lands-one-tier-too-low.md
+- **created**: wiki/concepts/benefit-ladder.md (origin: self)
+- **created**: wiki/entities/april-dunford.md
+- **created**: wiki/entities/clayton-christensen.md
+- **created**: wiki/entities/matthew-dixon-brent-adamson.md
+- **created**: wiki/entities/slack.md
+- **updated**: wiki/entities/brian-rieb.md (added PMM frameworks section)
+- **updated**: wiki/index.md
+
+## 2026-04-12 (session 2, ingest 2)
+- **ingested**: articles/writing-for-humans-killing-ai-voice.md (Brian Rieb, own article)
+- **created**: wiki/sources/writing-for-humans-killing-ai-voice.md (synopsis; links to full article)
+- **created**: wiki/entities/brian-rieb.md
+- **created**: wiki/entities/mailchimp.md
+- **created**: wiki/entities/37signals.md
+- **created**: wiki/concepts/ai-voice-tells-in-marketing-copy.md (origin: self)
+- **created**: wiki/concepts/marketing-voice-and-pov.md (origin: self)
+- **updated**: wiki/index.md (added 6 new pages)
+
+## 2026-04-12 (session 2)
+- **updated**: CLAUDE.md — added articles/ folder, article frontmatter schema, origin field on concepts, updated /ingest to handle own articles vs external sources
+- **created**: articles/ folder with _template.md
+
 ## 2026-04-12
 - **ingested**: https://github.com/coreyhaines31/marketingskills → wiki/sources/marketingskills-coreyhaines31.md
 - **created**: wiki/entities/corey-haines.md

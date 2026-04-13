@@ -21,6 +21,8 @@ marketing-codex/
 ├── .gitignore
 ├── raw/                   # Unprocessed source material (PDFs, .txt, pasted content)
 │   └── .gitkeep
+├── articles/              # Brian's own writing — full text, authoritative primary source
+│   └── _template.md
 ├── wiki/
 │   ├── index.md           # Master index of all wiki pages (auto-maintained)
 │   ├── hot.md             # Session context cache (~500 words, rolling)
@@ -32,11 +34,13 @@ marketing-codex/
 └── examples/              # Gold-standard reference outputs for few-shot prompting
 ```
 
-**raw/**: Drop source material here before ingesting. PDFs, copied articles, interview transcripts, analyst reports. Not tracked in git if PDF (see .gitignore).
+**raw/**: Drop external source material here before ingesting. PDFs, copied articles, interview transcripts, analyst reports. Not tracked in git if PDF (see .gitignore).
 
-**wiki/sources/**: One page per ingested source. Summarizes the source and links to extracted entities and concepts. Auto-created by `/ingest`.
+**articles/**: Brian's own writing — full article text lives here as the authoritative source. Move files from `raw/` here when the content is your own work. Wiki source pages link to these files rather than replacing them. Use `_template.md` for frontmatter.
 
-**wiki/concepts/**: One page per PMM concept, framework, or methodology. Examples: Jobs to Be Done, Positioning, Win/Loss Analysis, ICP, Category Creation. Created and updated by `/ingest` or manually.
+**wiki/sources/**: One page per ingested source. Summarizes the source and links to extracted entities and concepts. Auto-created by `/ingest`. For articles from `articles/`, this is a synopsis — the full text stays in `articles/`.
+
+**wiki/concepts/**: One page per PMM concept, framework, or methodology. Examples: Jobs to Be Done, Positioning, Win/Loss Analysis, ICP, Category Creation. Created and updated by `/ingest` or manually. Concepts originating from Brian's articles carry `origin: self` in frontmatter.
 
 **wiki/entities/**: One page per named entity — company, product, analyst, analyst firm, or person. Created and updated by `/ingest` or manually.
 
@@ -65,6 +69,19 @@ tags: []
 ---
 ```
 
+**Article pages** (`articles/`):
+```yaml
+---
+type: article
+title: ""
+author: "Brian Rieb"
+date: ""
+published: false
+url: ""   # fill in if/when published
+tags: []
+---
+```
+
 **Concept pages** (`wiki/concepts/`):
 ```yaml
 ---
@@ -72,6 +89,7 @@ type: concept
 title: ""
 created: ""
 updated: ""
+origin: ""   # self | external (omit if external)
 tags: []
 related: []
 ---
@@ -139,10 +157,15 @@ created: ""
 ## Slash Commands
 
 ### /ingest [source]
-1. Read the source from `raw/` (or a pasted URL/text)
+1. Determine source type:
+   - **External source** (URL, PDF, third-party article): read from `raw/` or fetch URL
+   - **Own article** (Brian's writing): read from `articles/`; if not yet there, move from `raw/` and add frontmatter using `articles/_template.md`
 2. Create a source summary page in `wiki/sources/`
+   - For own articles: synopsis only — full text stays in `articles/`; include a wikilink to the article file
 3. Extract entities → create or update pages in `wiki/entities/`
+   - If the article is Brian's, create or update `wiki/entities/brian-rieb.md`
 4. Extract concepts → create or update pages in `wiki/concepts/`
+   - For concepts originating from Brian's articles, add `origin: self` to frontmatter
 5. Add wikilinks between all new and existing pages
 6. Update `wiki/index.md`
 7. Append to `log.md`
