@@ -2,6 +2,9 @@
 
 Reverse-chronological activity log. Appended by `/ingest`, `/lint`, `/build`, and session end.
 
+## 2026-04-12 (session 2, misc 2)
+- **updated**: CLAUDE.md — documented flat-until-needed skill organization convention; /build resolution order
+
 ## 2026-04-12 (session 2, misc)
 - **updated**: README.md — added articles/ folder, raw/ vs articles/ distinction, corrected directory name (pmm-brain → marketing-codex), added article: git convention
 

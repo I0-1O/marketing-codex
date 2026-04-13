@@ -121,6 +121,26 @@ updated: ""
 ```
 Required sections: Purpose, Inputs, Process, Output Format, Example Usage
 
+**Skill file organization — flat until needed:**
+
+Skills default to a single flat file: `skills/skill-name.md`. When a skill accumulates supporting files (skill-specific example output, partial prompt fragment, reference doc that only applies to this skill), promote it to a folder:
+
+```
+skills/
+├── messaging-framework.md       # flat — no supporting files needed
+├── battle-card/
+│   ├── battle-card.md           # skill definition — same name as folder
+│   ├── example-output.md        # skill-specific example
+│   └── competitive-reference.md # supporting reference
+```
+
+Rules:
+- Skill definition file always shares the name of its folder (so `/build battle-card` resolves predictably)
+- Generic examples belong in `examples/` — only skill-specific files go in the skill folder
+- Don't create a folder preemptively; promote when the second file is needed
+
+`/build` resolution order: look for `skills/[name].md` first, then `skills/[name]/[name].md`.
+
 **Template pages** (`templates/`):
 ```yaml
 ---
