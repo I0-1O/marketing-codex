@@ -3,6 +3,8 @@
 Reverse-chronological activity log. Appended by `/ingest`, `/lint`, `/build`, and session end.
 
 ## 2026-04-13
+- **created**: tutorials/stop-building-ugly-slides/stop-building-ugly-slides.md — primer linking to PPTX deck (Dropbox), cheat sheet PDF (Dropbox), and AI skill
+- **created**: tutorials/stop-building-ugly-slides/cheat-sheet.md — vault-native cheat sheet with updated Dropbox links, wikilinked to skill and primer
 - **created**: skills/slide-deck.md — slide deck builder skill; ported from external file with encoding fixes, schema frontmatter, genericized examples, added Inputs/Process/Example Usage sections
 - **updated**: wiki/index.md — added Skills section; added [[slide-deck]] entry
 

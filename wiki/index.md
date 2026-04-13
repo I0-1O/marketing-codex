@@ -20,6 +20,13 @@
 
 ---
 
+## Tutorials
+
+- [[stop-building-ugly-slides]] — Primer: slide kit with PPTX deck, cheat sheet, and AI skill; the four offenses and core rules
+  - [[cheat-sheet]] — Quick-reference rules: bullets, one concept per slide, speaker notes format
+
+---
+
 ## Concepts
 
 - [[ai-agent-skills-for-marketing]] — Pattern for packaging marketing workflows as markdown skill files for AI coding agents
