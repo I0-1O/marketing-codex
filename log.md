@@ -2,6 +2,10 @@
 
 Reverse-chronological activity log. Appended by `/ingest`, `/lint`, `/build`, and session end.
 
+## 2026-04-13
+- **created**: skills/slide-deck.md — slide deck builder skill; ported from external file with encoding fixes, schema frontmatter, genericized examples, added Inputs/Process/Example Usage sections
+- **updated**: wiki/index.md — added Skills section; added [[slide-deck]] entry
+
 ## 2026-04-12 (session 2, misc 2)
 - **updated**: CLAUDE.md — documented flat-until-needed skill organization convention; /build resolution order
 

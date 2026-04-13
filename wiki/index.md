@@ -14,6 +14,12 @@
 
 ---
 
+## Skills
+
+- [[slide-deck]] — Build a story-driven slide deck plan with per-slide content, visual direction, and speaker notes
+
+---
+
 ## Concepts
 
 - [[ai-agent-skills-for-marketing]] — Pattern for packaging marketing workflows as markdown skill files for AI coding agents
