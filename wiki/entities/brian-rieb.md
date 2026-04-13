@@ -11,7 +11,7 @@ tags: [person, pmm, author, vault-owner]
 
 ## Overview
 
-Principal Product Marketing Manager with deep experience in enterprise B2B software — specifically workflow automation and business process platforms. Author of this vault. Voice: direct, concise, no marketing fluff. Substance over polish.
+Principal Product Marketing Manager with deep experience in enterprise B2B software — specifically workflow automation and business process platforms. Author of this vault. Came to PMM from a technical background: programming, hardware, IT, databases, support, and product management. Voice: direct, concise, no marketing fluff. Substance over polish.
 
 ## Key Facts
 
@@ -40,7 +40,25 @@ From [[benefit-ladder-copy-lands-one-tier-too-low]]:
 - A decade reviewing enterprise software copy; the direct-effect-as-benefit pattern is the most common failure
 - Has PM background — familiar with the proximity-to-product bias that causes the pattern
 
+## Messaging Philosophy
+
+From [[technical-thinkers-guide-to-messaging]]:
+- Technical thinker's default (decomposition, feature lists) produces accurate artifacts that ask the buyer to do the translation work — and buyers won't
+- Empathy is a discipline: write pain points in the customer's voice until they sound like a real person, not a requirements document
+- [[master-messaging-document]]: three problem-named pillars, pain-first internal sequence, forest-and-trees diagnostic
+- PM/PMM crossover experience informs the collaboration model: PM brings depth, PMM brings framing; most valuable PM input is verbatim customer quotes, not feature lists
+
+## Presentation Philosophy
+
+From [[slides-dont-talk]]:
+- Presentations are stories told by a person; slides support, presenter carries
+- Three-part speaker notes structure: On This Slide / What to Know / What to Say
+- See-it vs. hear-it test for every piece of slide text
+- Pyramid Principle: use it to think, use the story to present
+- Built internal deck "Stop Building Ugly Slides" aimed at engineers and product people
+
 ## Sources
 
 - [[writing-for-humans-killing-ai-voice]]
 - [[benefit-ladder-copy-lands-one-tier-too-low]]
+- [[slides-dont-talk]]

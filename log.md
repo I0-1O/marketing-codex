@@ -2,6 +2,29 @@
 
 Reverse-chronological activity log. Appended by `/ingest`, `/lint`, `/build`, and session end.
 
+## 2026-04-12 (session 2, misc)
+- **updated**: README.md — added articles/ folder, raw/ vs articles/ distinction, corrected directory name (pmm-brain → marketing-codex), added article: git convention
+
+## 2026-04-12 (session 2, ingest 5)
+- **ingested**: articles/technical-thinkers-guide-to-messaging.md (Brian Rieb, own article)
+- **created**: wiki/sources/technical-thinkers-guide-to-messaging.md
+- **created**: wiki/concepts/master-messaging-document.md (origin: self)
+- **created**: wiki/concepts/problem-first-messaging.md (origin: self)
+- **updated**: wiki/entities/brian-rieb.md (added technical background, messaging philosophy section)
+- **updated**: wiki/index.md
+
+## 2026-04-12 (session 2, ingest 4)
+- **ingested**: articles/slides-dont-talk.md (Brian Rieb, own article)
+- **created**: wiki/sources/slides-dont-talk.md
+- **created**: wiki/concepts/presentation-as-story.md (origin: self)
+- **created**: wiki/concepts/leave-behind-fallacy.md (origin: self)
+- **created**: wiki/entities/garr-reynolds.md
+- **created**: wiki/entities/edward-tufte.md
+- **created**: wiki/entities/nancy-duarte.md
+- **created**: wiki/entities/barbara-minto.md
+- **updated**: wiki/entities/brian-rieb.md (added presentation philosophy section)
+- **updated**: wiki/index.md
+
 ## 2026-04-12 (session 2, ingest 3)
 - **ingested**: articles/benefit-ladder-copy-lands-one-tier-too-low.md (Brian Rieb, own article)
 - **created**: wiki/sources/benefit-ladder-copy-lands-one-tier-too-low.md
