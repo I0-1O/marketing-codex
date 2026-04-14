@@ -3,6 +3,25 @@
 Reverse-chronological activity log. Appended by `/ingest`, `/lint`, `/build`, and session end.
 
 ## 2026-04-14
+- **skill**: created skills/competitive-profile.md — deep pre-battlecard research artifact; competitor + your product inputs; resolves or approximates master messaging doc; 11-section output; artifact chain: messaging doc → competitive profile → competitive brief → battle card
+- **template**: created templates/competitive-profile-template.md — 11 sections: quick verdict, competitor snapshot, positioning, capability comparison, buyer profile comparison, where they win, where you win, vulnerabilities, their narrative against you, counter-narrative, research gaps
+- **updated**: wiki/index.md — added competitive-profile skill
+- **ingested**: https://medium.com/@tdoherty_96508/the-30-minute-battlecard-58fe3a74b1da → wiki/sources/30-minute-battlecard-doherty.md
+- **created**: wiki/concepts/buyer-voice-intelligence.md — mining call recordings for authentic buyer language; four intelligence categories; sources and limitations
+- **created**: wiki/entities/thomas-e-doherty.md — PMM author, AI-accelerated GTM, three-phase battlecard methodology
+- **created**: wiki/entities/g2.md — B2B review platform; PMM use cases for competitive research and buyer vocabulary
+- **updated**: wiki/concepts/battle-card.md — added continuous intelligence framing, Doherty example
+- **updated**: wiki/concepts/objection-handling.md — added buyer voice as sourcing method
+- **updated**: wiki/index.md — added source, concept, 2 entities
+- **ingested**: https://www.momentum.io/prompts/competitive-research-battlecard-creation → wiki/sources/competitive-research-battlecard-creation-momentum.md
+- **updated**: wiki/entities/momentum.md — added Salesforce acquisition note, second source link
+- **updated**: wiki/concepts/battle-card.md — added v2 prompt to Examples section
+- **updated**: wiki/index.md — added second source entry
+- **ingested**: https://www.momentum.io/prompts/competitor-research-battlecard → wiki/sources/competitor-research-battlecard-momentum.md
+- **created**: wiki/entities/momentum.md — Salesforce-native AI sales platform, prompt library source
+- **created**: wiki/concepts/battle-card.md — one-page sales reference; battle card vs. competitive brief distinction
+- **created**: wiki/concepts/objection-handling.md — anticipating/structuring buyer resistance rebuttals; upstream of battle cards
+- **updated**: wiki/index.md — added source, 2 concepts, 1 entity
 - **skill**: created skills/launch-artifact.md — GTM campaign brief builder; synthesized from SKILL_launch_artifact.md (funnel model, audience sequencing, messaging shift, channel rationale), K2 GTM Brief (doc structure: objective, market context, compelling events, ICP, personas, internal/external positioning, messaging pillars, channel matrix, content plan, timeline, metrics, appendices), Corey Haines launch-strategy (ORB channel framework, five-phase launch progression); generic/product-agnostic
 - **template**: created templates/launch-artifact-template.md — full output format for launch-artifact skill; covers GTM strategy, ICP, personas, audience sequencing, positioning, funnel-stage messaging, ORB channel matrix, content plan, timeline, metrics, and three appendices (market evidence, product primer, objection handling)
 - **updated**: wiki/index.md — added [[launch-artifact]] to Skills section
