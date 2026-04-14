@@ -225,7 +225,7 @@ created: ""
 ## Session Management
 
 - At the start of every session, read `hot.md` and the last 20 entries in `log.md`
-- At the end of every session (or when asked), update `hot.md` with a summary of what was discussed, decided, or changed
+- At the end of every session (or when asked), run `skills/session-close.md` — it covers index sync, wikilink checks, hot.md update, log entries, and raw folder check
 - `hot.md` must stay under ~500 words — it is a rolling context cache, not a full history
 
 ---

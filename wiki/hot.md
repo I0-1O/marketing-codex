@@ -23,7 +23,7 @@ Two skills added/upgraded. Both were genericized (interview-specific references 
 
 **8 concepts** (6 origin: self), **13 entities**, **5 sources**, **4 articles**
 
-**Skills inventory:** slide-deck, pmm-writing-voice, messaging-framework, competitive-brief, analyst-prep, battle-card, content-brief
+**Skills inventory (7):** slide-deck, pmm-writing-voice, messaging-framework, competitive-brief, analyst-prep, battle-card, content-brief — all indexed in `wiki/index.md`
 
 ### Key Patterns Established This Session
 

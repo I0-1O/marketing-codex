@@ -3,6 +3,9 @@
 Reverse-chronological activity log. Appended by `/ingest`, `/lint`, `/build`, and session end.
 
 ## 2026-04-13
+- **created**: skills/session-close.md — end-of-session checklist skill; covers index sync, wikilinks, hot.md, log, raw folder; referenced from CLAUDE.md Session Management section
+- **updated**: CLAUDE.md — Session Management section now references session-close skill
+- **updated**: wiki/index.md — added session-close; added 4 previously missing skills (competitive-brief, analyst-prep, battle-card, content-brief)
 - **updated**: skills/messaging-framework.md — major rewrite from SKILL_messaging_framework.md + Master_Messaging_Document_Guide.md; merged skill + guide into single process; removed Orion-specific references, time-constrained shortcuts section; added ICP section, "why now" input, pillar construction rules, common mistakes, competitive framing rules; linked [[pmm-writing-voice]], [[master-messaging-document]], [[problem-first-messaging]], [[benefit-ladder]]
 - **updated**: templates/messaging-framework-template.md — major upgrade from Master_Messaging_Template.md; added ICP table, personas with "what they'd do instead" column, per-audience value props section, partner messaging section, proof points with sourcing notes; pillar structure now full pain→use cases→features→VP→outcomes sequence
 - **created**: skills/pmm-writing-voice.md — ported from SKILL_writing_style.md; reformatted to skill schema; trimmed for modern LLMs; cross-referenced [[ai-voice-tells-in-marketing-copy]], [[marketing-voice-and-pov]], [[benefit-ladder]]; removed redundant before/after examples and competitive claims block; kept em dash rule, comma chain rule, banned word list, and editing checklist

@@ -19,6 +19,11 @@
 - [[slide-deck]] — Build a story-driven slide deck plan with per-slide content, visual direction, and speaker notes
 - [[pmm-writing-voice]] — Voice constraints and editing checklist for marketing copy; load before any drafting or review session
 - [[messaging-framework]] — Build a complete master messaging document: positioning, ICP, personas, pillars, VPs, objection handling, proof points
+- [[competitive-brief]] — Build a competitive analysis brief on a named competitor; surfaces wiki intel and flags research gaps
+- [[battle-card]] — Generate a one-page sales battle card for a named competitor; designed for use in live deals
+- [[analyst-prep]] — Prepare a structured briefing package for an analyst meeting: agenda, key messages, anticipated questions
+- [[content-brief]] — Create a structured content brief for any marketing content type; pulls persona and messaging context from wiki
+- [[session-close]] — End-of-session checklist: index sync, wikilinks, hot.md, log, raw folder
 
 ---
 
