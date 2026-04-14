@@ -71,4 +71,4 @@ The [[slide-deck]] skill is a Claude Code workflow that builds decks using this 
 4. Build in PowerPoint; pull speaker notes directly from the skill output
 5. Review AI output carefully — hallucinations and word salad are real
 
-See [[slide-deck#Example Usage]] for sample prompts.
+See [[slide-deck]] for sample prompts (Example Usage section).

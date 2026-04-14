@@ -3,6 +3,7 @@
 Reverse-chronological activity log. Appended by `/ingest`, `/lint`, `/build`, and session end.
 
 ## 2026-04-14
+- **lint**: 1 dead link (hash anchor syntax in stop-building-ugly-slides.md:74) — fixed; 0 orphans; 0 frontmatter gaps
 - **session**: built out full competitive intel system — 3 ingests, 3 concepts, 3 entities, 1 new skill (competitive-profile), 2 updated skills (competitive-brief, battle-card), 2 new templates, 1 tutorial (competitive-intel-playbook); registered slash commands in ~/.claude/commands/
 - **skill**: updated skills/competitive-brief.md — added Step 0 (check for profile), buyer voice sourcing priority, claim validation, template reference, artifact chain; updated output format
 - **skill**: updated skills/battle-card.md — added buyer voice sourcing, topics-to-avoid step, trigger-based update cadence, competitive-profile as preferred predecessor; updated output sections
