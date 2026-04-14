@@ -3,6 +3,8 @@
 Reverse-chronological activity log. Appended by `/ingest`, `/lint`, `/build`, and session end.
 
 ## 2026-04-13
+- **updated**: tutorials/building your own codex/Bootstrap.md — added tutorials/ and articles/ to directory scaffold; added article frontmatter schema; updated all 8 skills descriptions; updated session management to reference /session-close; added /session-close slash command definition; added Bootstrap + README drift checks
+- **updated**: skills/session-close.md — added items 8 (Bootstrap drift) and 9 (README drift) to checklist
 - **created**: skills/session-close.md — end-of-session checklist skill; covers index sync, wikilinks, hot.md, log, raw folder; referenced from CLAUDE.md Session Management section
 - **updated**: CLAUDE.md — Session Management section now references session-close skill
 - **updated**: wiki/index.md — added session-close; added 4 previously missing skills (competitive-brief, analyst-prep, battle-card, content-brief)

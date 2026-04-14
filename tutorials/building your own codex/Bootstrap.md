@@ -6,27 +6,35 @@ Please do the following:
 
 ## 1. Create the directory scaffold
 
-pmm-brain/
-├── CLAUDE.md
-├── log.md
+```
+marketing-codex/
+├── CLAUDE.md                   # schema, conventions, slash commands for Claude Code
+├── log.md                      # reverse-chronological activity log
 ├── .gitignore
-├── raw/                        # unprocessed source material
+├── raw/                        # unprocessed external source material
 │   └── .gitkeep
+├── articles/                   # your own writing — full text, authoritative primary source
+│   └── _template.md            # frontmatter template for new articles
 ├── wiki/
-│   ├── index.md                # master index of all wiki pages
+│   ├── index.md                # master index of all wiki pages (auto-maintained)
 │   ├── hot.md                  # session context cache (~500 words, updated each session)
-│   ├── sources/                # processed source summaries
+│   ├── sources/                # processed source summaries — one page per ingested source
 │   │   └── .gitkeep
 │   ├── concepts/               # PMM frameworks, methodologies, patterns
 │   │   └── .gitkeep
-│   └── entities/               # companies, products, analysts, competitors
+│   └── entities/               # companies, products, people, analyst firms
 │       └── .gitkeep
-├── skills/                     # reusable Claude Code PMM workflows
+├── skills/                     # reusable Claude Code PMM workflows (slash commands)
 │   └── .gitkeep
-├── templates/                  # output templates (battle cards, one-pagers, etc.)
+├── templates/                  # output format templates
 │   └── .gitkeep
-└── examples/                   # gold-standard reference outputs for few-shot prompting
-    └── .gitkeep
+├── examples/                   # gold-standard reference outputs for quality benchmarking
+│   └── .gitkeep
+└── tutorials/                  # guides for setting up and using the vault
+    └── building your own codex/
+        ├── Bootstrap.md        # this file — the scaffold prompt
+        └── How to build your PMM Brain.md
+```
 
 ## 2. Write CLAUDE.md with these sections
 
@@ -41,6 +49,7 @@ Document every folder, its purpose, and what goes in it. Be specific.
 Define frontmatter schema for each page type:
 
 **Source pages** (wiki/sources/):
+```yaml
 ---
 type: source
 title: ""
@@ -50,19 +59,37 @@ url: ""
 ingested: ""
 tags: []
 ---
+```
+
+**Article pages** (articles/):
+```yaml
+---
+type: article
+title: ""
+author: ""
+date: ""
+published: false
+url: ""   # fill in if/when published
+tags: []
+---
+```
 
 **Concept pages** (wiki/concepts/):
+```yaml
 ---
 type: concept
 title: ""
 created: ""
 updated: ""
+origin: ""   # self | external (omit if external)
 tags: []
 related: []
 ---
+```
 Sections: Definition, Why It Matters, How It Works, Examples, Related Concepts
 
 **Entity pages** (wiki/entities/):
+```yaml
 ---
 type: entity
 title: ""
@@ -71,9 +98,11 @@ created: ""
 updated: ""
 tags: []
 ---
+```
 Sections: Overview, Key Facts, Positioning, Competitive Context, Sources
 
 **Skill pages** (skills/):
+```yaml
 ---
 type: skill
 title: ""
@@ -81,9 +110,11 @@ trigger: ""      # the /command or natural language trigger
 created: ""
 updated: ""
 ---
+```
 Sections: Purpose, Inputs, Process, Output Format, Example Usage
 
 **Template pages** (templates/):
+```yaml
 ---
 type: template
 title: ""
@@ -91,8 +122,10 @@ output_type: ""  # battle-card | one-pager | messaging-framework | etc.
 created: ""
 updated: ""
 ---
+```
 
 **Example pages** (examples/):
+```yaml
 ---
 type: example
 title: ""
@@ -100,24 +133,26 @@ demonstrates: ""  # which skill or template this exemplifies
 quality: ""       # gold | silver | draft
 created: ""
 ---
+```
 
 ### Wikilinks
-- Use Obsidian-style wikilinks: [[page-name]]
+- Use Obsidian-style wikilinks: `[[page-name]]`
 - All cross-references between pages must use wikilinks
 - When creating or updating a page, always check for and add relevant wikilinks to existing pages
-- When a new page is created, update the index
+- When a new page is created, update wiki/index.md
 
 ### Slash commands
 Define these workflows in CLAUDE.md:
 
 **/ingest [source]**
-1. Read the source from raw/ (or a pasted URL/text)
-2. Create a source summary page in wiki/sources/
-3. Extract entities → create or update pages in wiki/entities/
-4. Extract concepts → create or update pages in wiki/concepts/
-5. Add wikilinks between all new and existing pages
-6. Update wiki/index.md
-7. Append to log.md
+1. Determine source type: external (URL, PDF, third-party article) or own article (Brian's writing)
+2. For own articles: move from raw/ to articles/ if needed, add frontmatter using articles/_template.md
+3. Create a source summary page in wiki/sources/ (for own articles: synopsis only, full text stays in articles/)
+4. Extract entities → create or update pages in wiki/entities/
+5. Extract concepts → create or update pages in wiki/concepts/ (add `origin: self` for concepts from own articles)
+6. Add wikilinks between all new and existing pages
+7. Update wiki/index.md
+8. Append to log.md
 
 **/query [question]**
 1. Read wiki/hot.md for recent context
@@ -149,13 +184,17 @@ Define these workflows in CLAUDE.md:
 2. Show hot.md contents
 3. Show last 5 log entries
 
+**/session-close**
+Run the checklist in skills/session-close.md: index sync, wikilink coverage, hot.md update, log completeness, raw folder check, Bootstrap and README structural drift check.
+
 ### Session management
 - At the start of every session, read hot.md and log.md (last 20 entries)
-- At the end of every session (or when asked), update hot.md with a summary of what was discussed, decided, or changed
-- hot.md should stay under ~500 words — it's a rolling context cache, not a full history
+- At the end of every session (or when asked), run /session-close
+- hot.md must stay under ~500 words — it's a rolling context cache, not a full history
 
 ### Log format
 Entries in log.md follow this format, reverse-chronological:
+```
 ## YYYY-MM-DD
 - **ingested**: source-filename → wiki/sources/page-name.md
 - **created**: wiki/concepts/page-name.md
@@ -163,19 +202,22 @@ Entries in log.md follow this format, reverse-chronological:
 - **lint**: summary of findings
 - **build**: skill-name → output description
 - **session**: brief summary of session context
+```
 
 ### Git conventions
-- Do NOT auto-commit. I'll handle commits via Obsidian Git plugin or manually.
-- If I explicitly ask you to commit, use conventional commit messages:
-  - ingest: [source-name]
-  - wiki: create [page-name]
-  - wiki: update [page-name]
-  - lint: fix [description]
-  - skill: add [skill-name]
-  - template: add [template-name]
+- Do NOT auto-commit. Commits are handled via Obsidian Git plugin or manually.
+- If explicitly asked to commit, use conventional commit messages:
+  - `ingest: [source-name]`
+  - `wiki: create [page-name]`
+  - `wiki: update [page-name]`
+  - `lint: fix [description]`
+  - `skill: add [skill-name]`
+  - `template: add [template-name]`
+  - `article: add [title]`
 
 ### Forking convention
-This vault is designed to be forked for company-specific use. Generic PMM knowledge lives in the standard folders. A future fork will add:
+This vault is designed to be forked for company-specific use. Generic PMM knowledge lives in the standard folders. A future fork adds:
+```
 company/
 ├── wiki/
 │   ├── sources/
@@ -184,13 +226,13 @@ company/
 ├── skills/
 ├── templates/
 └── examples/
-
-Company-specific pages use the same frontmatter schemas but add scope: company to frontmatter. Generic pages have scope: generic (or no scope field, which implies generic). CLAUDE.md in the fork extends — not replaces — the base schema.
+```
+Company-specific pages add `scope: company` to frontmatter. Generic pages have `scope: generic` (or omit — omission implies generic). CLAUDE.md in a fork extends — does not replace — this base schema.
 
 ## 3. Create starter content
 
 ### wiki/index.md
-Create an empty index with sections for Sources, Concepts, and Entities. Include a note that this is auto-maintained.
+Create an empty index with sections for Sources, Concepts, Entities, and Skills. Include a note that this is auto-maintained.
 
 ### wiki/hot.md
 Initialize with a note that this is a session context cache, currently empty.
@@ -198,34 +240,45 @@ Initialize with a note that this is a session context cache, currently empty.
 ### log.md
 Initialize with a single entry noting the vault was scaffolded.
 
+### articles/_template.md
+Create a blank article template with the article frontmatter schema pre-filled.
+
 ### skills/ — create these starter skill files
 
-**messaging-framework.md**: Skill for building a messaging framework. Inputs: product name, target persona, key differentiators, competitive context. Output: positioning statement, value pillars (3), proof points per pillar, key objections + responses.
+**pmm-writing-voice.md**: Voice and structure rules for all marketing copy. Banned words, structural rules (no em dashes, one comma per sentence, bullets 3–5 ceiling), benefit framing rule, editing checklist. Loaded at the start of any copy drafting or review session.
 
-**competitive-brief.md**: Skill for building a competitive analysis brief. Inputs: competitor name, product category. Process: pull from wiki/entities/ for known info, identify gaps. Output: competitor overview, strengths, weaknesses, our differentiation, talk track for sales.
+**messaging-framework.md**: Build a complete master messaging document. Inputs: product name, scope, personas, differentiators, competitive context, proof points, "why now." Output: positioning statement, ICP, per-audience value props, three-pillar architecture, objection handling, proof points. References pmm-writing-voice.
 
-**analyst-prep.md**: Skill for preparing an analyst briefing. Inputs: analyst firm, analyst name, briefing topic. Process: pull from wiki/entities/ for analyst/firm context. Output: briefing agenda, key messages, anticipated questions, supporting data points.
+**competitive-brief.md**: Build a competitive analysis brief on a named competitor. Inputs: competitor name, product category. Process: pull from wiki/entities/ for known info, identify and flag gaps. Output: competitor overview, strengths, weaknesses, differentiation, sales talk track, knowledge gaps.
 
-**battle-card.md**: Skill for building a sales battle card. Inputs: competitor name. Process: pull competitive brief + messaging framework. Output: one-page battle card with win themes, landmines, trap questions, proof points.
+**analyst-prep.md**: Prepare a structured briefing package for an analyst meeting. Inputs: analyst firm, analyst name, briefing topic. Process: pull from wiki/entities/ for analyst and firm context. Output: agenda, key messages, anticipated questions, supporting data points, what to avoid, knowledge gaps.
 
-**content-brief.md**: Skill for creating a content brief. Inputs: content type, target persona, topic, goal. Output: title options, outline, key messages to hit, SEO considerations, CTA.
+**battle-card.md**: Generate a one-page sales battle card for a named competitor. Inputs: competitor name. Process: pull competitive brief and messaging framework. Output: win themes, landmines, trap questions, proof points, one-line reframe.
+
+**content-brief.md**: Create a structured content brief for any marketing content type. Inputs: content type, target persona, topic, goal. Output: title options, audience, goal, key messages, outline, SEO considerations, CTA, related assets.
+
+**slide-deck.md**: Build a story-driven slide deck plan. Inputs: topic, audience, goal, key messages. Output: per-slide content direction, visual guidance, speaker notes. References pmm-writing-voice.
+
+**session-close.md**: End-of-session housekeeping checklist. Covers: skills/templates/examples index sync (compare folder counts to wiki/index.md), wikilink coverage on new pages, hot.md update, log completeness, raw folder check, Bootstrap and README structural drift check.
 
 ### templates/ — create starter templates
 
-**battle-card-template.md**: Structured template for a one-page battle card.
-**one-pager-template.md**: Structured template for a product one-pager.
-**messaging-framework-template.md**: Structured template for a messaging framework document.
+**messaging-framework-template.md**: Full master messaging document template. Sections: positioning statement, top-level messaging (short + long), ICP table, personas with "what they'd do instead," per-audience value props, three pillars (each with pain points, use cases, features/differentiators, value prop, outcomes, short and long messaging), objection handling, competitive framing, proof points, partner messaging.
+
+**battle-card-template.md**: One-page battle card template.
+
+**one-pager-template.md**: Product one-pager template.
 
 ## 4. Initialize git
 
 Run git init in this directory. Create a .gitignore that excludes:
-- .obsidian/ (Obsidian config is local)
-- .trash/ (Obsidian trash)
-- raw/*.pdf (large source files — keep .md and .txt sources tracked)
-- .DS_Store
-- node_modules/
+- `.obsidian/` (Obsidian config is local)
+- `.trash/` (Obsidian trash)
+- `raw/*.pdf` (large source files — keep .md and .txt sources tracked)
+- `.DS_Store`
+- `node_modules/`
 
-Do NOT make an initial commit — I'll review the scaffold first and commit manually.
+Do NOT make an initial commit — review the scaffold first and commit manually.
 
 ## 5. After scaffolding
 

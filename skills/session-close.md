@@ -47,6 +47,17 @@ Run this at the end of every session. Catches the housekeeping that's easy to fo
 - [ ] Check `raw/` for any files that were dropped but not ingested
 - [ ] If files exist: flag them to the user before closing
 
+### 8. Bootstrap structural drift
+- [ ] Check if any folders were added or removed this session
+- [ ] Check if any new skill types or frontmatter schemas were introduced
+- [ ] If yes: update the directory scaffold and relevant sections in `tutorials/building your own codex/Bootstrap.md` to reflect current structure
+
+### 9. README structural drift
+- [ ] Check if the skills table in README.md matches the current skills in `skills/`
+- [ ] Check if the tutorials section lists all files in `tutorials/`
+- [ ] Check if the Structure section reflects the current folder layout
+- [ ] Update README.md for any gaps
+
 ---
 
 ## Example Usage
