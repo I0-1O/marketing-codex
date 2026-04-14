@@ -46,8 +46,10 @@ Markdown files that define reusable Claude Code workflows. Each maps to a slash 
 | Skill | Trigger | What it does |
 |---|---|---|
 | `messaging-framework` | `/build messaging-framework` | Build a complete master messaging document: positioning, ICP, personas, pillars, value props, objection handling, proof points |
-| `battle-card` | `/build battle-card` | Generate a one-page sales battle card for a named competitor |
-| `competitive-brief` | `/build competitive-brief` | Build a competitive analysis brief; surfaces wiki intel and flags research gaps |
+| `competitive-profile` | `/build competitive-profile` | Deep pre-battlecard research artifact; competitor + your product; resolves or approximates messaging doc; 11-section output |
+| `competitive-brief` | `/build competitive-brief` | Digestible 2–3 page competitive summary; surfaces wiki intel, buyer voice, and flags research gaps |
+| `battle-card` | `/build battle-card` | One-page sales battle card for a named competitor; includes topics to avoid, buyer-language talk track |
+| `launch-artifact` | `/build launch-artifact` | Build a complete GTM campaign brief: objective, audience sequencing, channel strategy, messaging, content plan, timeline, metrics |
 | `content-brief` | `/build content-brief` | Create a structured content brief for any marketing content type |
 | `analyst-prep` | `/build analyst-prep` | Prepare a structured briefing package for an analyst meeting |
 | `slide-deck` | `/build slide-deck` | Build a story-driven slide deck plan with per-slide content and speaker notes |
@@ -97,6 +99,9 @@ Step-by-step guides for setting up and understanding the vault.
 
 - [How to Build Your PMM Brain](./tutorials/building%20your%20own%20codex/How%20to%20build%20your%20PMM%20Brain.md) — Full setup walkthrough: Obsidian, Git, Claude Code, first ingest. About 30 minutes start to finish.
 - [Bootstrap](./tutorials/building%20your%20own%20codex/Bootstrap.md) — The original scaffold prompt used to generate this vault structure. Useful reference if you're building a fork from scratch.
+
+### Competitive Intelligence
+- [Competitive Intel Playbook](./tutorials/competitive-intel-playbook/competitive-intel-playbook.md) — The four-artifact competitive system (messaging doc → profile → brief → battle card), build order rationale, research source priorities, trigger-based update cadences, and Claude Code scheduling examples.
 
 ### Presentations
 - [Stop Building Ugly Slides](./tutorials/stop-building-ugly-slides/stop-building-ugly-slides.md) — Principles for presentations that work: story-first structure, the see-it/hear-it test, and how to use the AI slide skill. Links to the PPTX starter kit and cheat sheet.

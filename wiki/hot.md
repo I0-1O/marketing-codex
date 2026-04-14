@@ -5,34 +5,52 @@
 
 ---
 
-## Last Updated: 2026-04-13
+## Last Updated: 2026-04-14
 
 ### What Was Built This Session
 
-**Skills ported and rebuilt from an external interview project:**
+**Competitive intelligence system — full build-out.**
 
-Two skills added/upgraded. Both were genericized (interview-specific references removed) and reformatted to the vault's skill schema. Writing voice is a constraint file loaded at the start of copy sessions; messaging framework is the full build workflow for a master messaging doc.
+**Slash commands registered** (new): Created `~/.claude/commands/` with five files — ingest, query, lint, build, status. These register the CLAUDE.md workflows as proper Claude Code slash commands with autocomplete.
 
-1. **`skills/pmm-writing-voice.md`** (new) — Voice and structure rules for marketing copy. Em dash rule, comma chain rule, banned word list, benefit framing, editing checklist. Trimmed for modern LLMs (removed redundant before/after examples that live in concept pages). References [[ai-voice-tells-in-marketing-copy]], [[marketing-voice-and-pov]], [[benefit-ladder]].
+**Three sources ingested:**
+1. **Momentum battlecard prompt v1** (`competitor-research-battlecard-momentum`) — six-step prompt, URL-in, SWOT + objection pairs out
+2. **Momentum battlecard prompt v2** (`competitive-research-battlecard-creation-momentum`) — GRACE framework (Coach K); 8-section output; adds landmines, "topics to avoid," follow-up email sequences
+3. **Doherty "30-Minute Battlecard"** (`30-minute-battlecard-doherty`) — three-phase AI workflow: competitive intel extraction → buyer voice intelligence → assembly; continuous intelligence framing
 
-2. **`skills/messaging-framework.md`** (major rewrite) — Complete master messaging document builder. Merged the skill file and a separate process guide into one. Covers: inputs (with "why now" as required), positioning statement, ICP + personas, per-audience value props, three-pillar architecture, objection handling, competitive framing, proof points. Links [[pmm-writing-voice]] as a load instruction.
+**New concepts (3):** `battle-card`, `objection-handling`, `buyer-voice-intelligence`
+- buyer-voice-intelligence is the most novel: mining call recordings for four categories (objection triggers, feature perception gaps, pricing intel, authentic buyer vocabulary)
 
-3. **`templates/messaging-framework-template.md`** (major upgrade) — Template now matches the skill's full scope: ICP table, personas with "what they'd do instead" column, per-audience VP section, full pain→use cases→features→VP→outcomes pillar sequence, sourced proof points, optional partner messaging.
+**New entities (3):** `momentum` (Salesforce-acquired sales AI, prompt library), `thomas-e-doherty` (PMM author, AI-accelerated GTM), `g2` (review platform, competitive research source)
+
+**New skill:** `competitive-profile` — deep pre-battlecard research artifact; resolves or prompts for master messaging doc; 11-section output; sits between messaging-framework and competitive-brief in the artifact chain
+
+**Updated skills (2):**
+- `competitive-brief` — added Step 0 (check for profile first), buyer voice sourcing priority, claim validation, template reference
+- `battle-card` — added buyer voice sourcing step, explicit "topics to avoid" step, trigger-based update cadence
+
+**New templates (2):** `competitive-brief-template`, `competitive-profile-template` (battle-card-template updated with Topics to Avoid section)
+
+**New tutorial:** `competitive-intel-playbook` — four-artifact system (messaging doc → profile → brief → battle card), build chain rationale, research source priority table, trigger-based cadence, Claude Code scheduling examples
 
 ### Current Wiki State
 
-**8 concepts** (6 origin: self), **13 entities**, **5 sources**, **4 articles**
+**11 concepts** (6 origin: self) | **15 entities** | **8 sources** | **4 articles**
 
-**Skills inventory (7):** slide-deck, pmm-writing-voice, messaging-framework, competitive-brief, analyst-prep, battle-card, content-brief — all indexed in `wiki/index.md`
+**Skills (10):** messaging-framework, competitive-profile, competitive-brief, battle-card, launch-artifact, slide-deck, pmm-writing-voice, content-brief, analyst-prep, session-close
+
+**Templates (6):** competitive-profile, competitive-brief, battle-card, messaging-framework, launch-artifact, one-pager
 
 ### Key Patterns Established This Session
 
-- `[[pmm-writing-voice]]` is now the standard load instruction referenced in other skills — future skills that produce copy should reference it the same way
-- "Why now" is a required input in the messaging framework — forces urgency thinking at the architecture level; if the buyer could wait six months and nothing changes, the messaging has a hole
-- Competitive framing rule: attack specific trade-offs, not categories — especially important if the portfolio includes both sides of a comparison
+- Artifact chain is now explicit and enforced in skills: messaging-doc → competitive-profile → competitive-brief → battle-card
+- "Topics to avoid" is a named section in both the battle-card skill and template — what not to say against a specific competitor
+- Trigger-based cadence over fixed quarterly for competitive updates (competitive-intel-playbook tutorial documents the trigger table)
+- Buyer voice (call recordings + G2) is the highest-signal competitive source; always prioritized over training data in skill process steps
 
-### Next Session Priorities (anticipated)
+### Next Session Priorities
 
-- Continue porting remaining skills from the external project (battle card, competitive brief, content brief — check what's already in `skills/` vs. what needs upgrading)
-- Ingest any new articles or external sources
-- Consider building an examples page for the messaging framework (gold-standard completed output)
+- Build a gold-standard example output for competitive-profile
+- Analyst-prep and content-brief skills have no templates yet — build them
+- Run `/lint` for a full vault health check
+- Consider ingesting more competitive intel methodology sources

@@ -3,6 +3,13 @@
 Reverse-chronological activity log. Appended by `/ingest`, `/lint`, `/build`, and session end.
 
 ## 2026-04-14
+- **session**: built out full competitive intel system — 3 ingests, 3 concepts, 3 entities, 1 new skill (competitive-profile), 2 updated skills (competitive-brief, battle-card), 2 new templates, 1 tutorial (competitive-intel-playbook); registered slash commands in ~/.claude/commands/
+- **skill**: updated skills/competitive-brief.md — added Step 0 (check for profile), buyer voice sourcing priority, claim validation, template reference, artifact chain; updated output format
+- **skill**: updated skills/battle-card.md — added buyer voice sourcing, topics-to-avoid step, trigger-based update cadence, competitive-profile as preferred predecessor; updated output sections
+- **template**: updated templates/battle-card-template.md — added Topics to Avoid section; tightened instructional language; added last-updated note
+- **template**: created templates/competitive-brief-template.md — 7-section template: competitor overview, positioning, strengths, weaknesses (sourced), differentiation, talk track, research gaps
+- **tutorial**: created tutorials/competitive-intel-playbook/competitive-intel-playbook.md — four-artifact system, build chain rationale, per-artifact guidance, research source priority table, trigger-based update cadence, Claude Code scheduling examples
+- **updated**: wiki/index.md — added competitive-intel-playbook tutorial
 - **skill**: created skills/competitive-profile.md — deep pre-battlecard research artifact; competitor + your product inputs; resolves or approximates master messaging doc; 11-section output; artifact chain: messaging doc → competitive profile → competitive brief → battle card
 - **template**: created templates/competitive-profile-template.md — 11 sections: quick verdict, competitor snapshot, positioning, capability comparison, buyer profile comparison, where they win, where you win, vulnerabilities, their narrative against you, counter-narrative, research gaps
 - **updated**: wiki/index.md — added competitive-profile skill

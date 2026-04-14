@@ -32,8 +32,20 @@
 
 ---
 
+## Templates
+
+- [[battle-card-template]] — One-page battle card: win themes, landmines, trap questions, topics to avoid, proof points, one-liner, know your enemy
+- [[competitive-brief-template]] — 2–3 page competitive brief: overview, positioning, strengths, weaknesses (sourced), differentiation, talk track, gaps
+- [[competitive-profile-template]] — 11-section deep research artifact: quick verdict through research gaps; pre-battlecard workup
+- [[messaging-framework-template]] — Full master messaging document: ICP, personas, pillars, value props, objection handling, proof points
+- [[launch-artifact-template]] — GTM campaign brief: objective, ICP, positioning, channel matrix, content plan, timeline, metrics
+- [[one-pager-template]] — Product one-pager format
+
+---
+
 ## Tutorials
 
+- [[competitive-intel-playbook]] — Four-artifact competitive system: what each doc is for, build order, update cadences, Claude Code scheduling
 - [[stop-building-ugly-slides]] — Primer: slide kit with PPTX deck, cheat sheet, and AI skill; the four offenses and core rules
   - [[cheat-sheet]] — Quick-reference rules: bullets, one concept per slide, speaker notes format
 

@@ -3,72 +3,80 @@ type: template
 title: Battle Card Template
 output_type: battle-card
 created: 2026-04-10
-updated: 2026-04-10
+updated: 2026-04-14
 ---
 
-# Battle Card: vs. [Competitor Name]
+# Battle Card: [Your Product] vs. [Competitor]
 
-> One page. For reps in active competitive deals.
+> One page. For reps in active competitive deals. Scannable in 60 seconds.
+> Last updated: [date] — flag stale intel to PMM
 
 ---
+
 ## Win Themes
 
-*Three reasons we beat them. Lead with outcomes, not features.*
+*Three reasons you beat them. Lead with outcomes — not features.*
 
-1. **[Theme 1]** — [1–2 sentence explanation]
-2. **[Theme 2]** — [1–2 sentence explanation]
-3. **[Theme 3]** — [1–2 sentence explanation]
+1. **[Theme 1]** — [1–2 sentences; what the buyer gets, not what the product does]
+2. **[Theme 2]** — [1–2 sentences]
+3. **[Theme 3]** — [1–2 sentences]
 
 ---
 
 ## Landmines
 
-*Questions to ask the prospect that expose competitor weaknesses.*
+*Questions to ask the prospect that surface competitor weaknesses. Make them specific enough to be answerable.*
 
-- "How do you handle [scenario where competitor struggles]?"
-- "What happens when [edge case or scale issue]?"
-- "Have you talked to [competitor] about [known gap]?"
+- "How do you handle [scenario where competitor structurally struggles]?"
+- "What happens when [scale, edge case, or operational scenario they don't handle well]?"
+- "Has [Competitor] explained how they'd [gap or known limitation]?"
 
 ---
 
-## Trap Questions (and How to Respond)
+## Trap Questions (and How to Answer)
 
-*Questions the competitor will coach the prospect to ask us. Don't get caught flat-footed.*
+*What the competitor coaches buyers to ask. Don't get caught flat-footed.*
 
-| Their Question | Our Response |
+| Their question | Your response |
 |---|---|
-| "[Expected attack question 1]" | [Honest, confident response] |
-| "[Expected attack question 2]" | [Honest, confident response] |
-| "[Expected attack question 3]" | [Honest, confident response] |
+| "[Expected attack question]" | [Honest, confident answer — reframe when possible] |
+| "[Expected attack question]" | [Honest, confident answer] |
+| "[Expected attack question]" | [Honest, confident answer] |
+
+---
+
+## Topics to Avoid
+
+*Framings that play into their narrative. Don't step into these.*
+
+- **[Topic/comparison]** — [brief note on why it backfires against this competitor]
+- **[Topic/comparison]** — [why]
+- **[Topic/comparison]** — [why]
 
 ---
 
 ## Proof Points
 
-*Customer evidence and metrics. Specific beats general.*
+*Customer evidence and metrics. Specific beats general every time.*
 
-- **[Customer or segment]**: [Outcome achieved] — [source or quote]
-- **[Customer or segment]**: [Outcome achieved] — [source or quote]
-- **[Customer or segment]**: [Outcome achieved] — [source or quote]
+- **[Customer or segment]**: [Outcome] — [source or quote]
+- **[Customer or segment]**: [Outcome] — [source or quote]
+- **[Customer or segment]**: [Outcome] — [source or quote]
 
 ---
 
 ## One-Liner
 
-*A single sentence to reframe the conversation.*
+*A single sentence that reframes the competitive conversation — away from their frame, toward yours.*
 
-> "[Positioning statement that redirects from competitor comparison to our category strength]"
+> "[Positioning statement that shifts the evaluation criteria]"
 
 ---
 
 ## Know Your Enemy
 
-| | Us | [Competitor] |
+| | [Your Product] | [Competitor] |
 |---|---|---|
-| **Strengths** | [Key strengths] | [Their actual strengths — be honest] |
-| **Weaknesses** | [Our honest gaps] | [Their real weaknesses] |
-| **Best for** | [Ideal customer profile] | [Where they genuinely win] |
-
----
-
-*Last updated: [date] — flag stale intel to PMM*
+| **Strengths** | [Honest] | [Honest — accuracy here matters] |
+| **Weaknesses** | [Honest] | [Sourced] |
+| **Best for** | [Your ICP] | [Where they genuinely win] |
