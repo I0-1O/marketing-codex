@@ -2,6 +2,11 @@
 
 Reverse-chronological activity log. Appended by `/ingest`, `/lint`, `/build`, and session end.
 
+## 2026-04-14
+- **skill**: created skills/launch-artifact.md — GTM campaign brief builder; synthesized from SKILL_launch_artifact.md (funnel model, audience sequencing, messaging shift, channel rationale), K2 GTM Brief (doc structure: objective, market context, compelling events, ICP, personas, internal/external positioning, messaging pillars, channel matrix, content plan, timeline, metrics, appendices), Corey Haines launch-strategy (ORB channel framework, five-phase launch progression); generic/product-agnostic
+- **template**: created templates/launch-artifact-template.md — full output format for launch-artifact skill; covers GTM strategy, ICP, personas, audience sequencing, positioning, funnel-stage messaging, ORB channel matrix, content plan, timeline, metrics, and three appendices (market evidence, product primer, objection handling)
+- **updated**: wiki/index.md — added [[launch-artifact]] to Skills section
+
 ## 2026-04-13
 - **updated**: tutorials/building your own codex/Bootstrap.md — added tutorials/ and articles/ to directory scaffold; added article frontmatter schema; updated all 8 skills descriptions; updated session management to reference /session-close; added /session-close slash command definition; added Bootstrap + README drift checks
 - **updated**: skills/session-close.md — added items 8 (Bootstrap drift) and 9 (README drift) to checklist

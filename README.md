@@ -8,6 +8,10 @@ This repo is both an [Obsidian](https://obsidian.md/) vault and a [Claude Code](
 
 Knowledge compounds over time. Sources go in, Claude Code extracts entities and concepts, cross-references everything, and files it into a structured wiki. The more you ingest, the richer the context for generating marketing deliverables.
 
+In practice: Obsidian stays open for browsing, editing, and navigating the graph. Claude Code runs alongside it in the terminal — you drop a source into `raw/`, run `/ingest`, and the wiki updates with new pages, wikilinks, and cross-references. When you need a deliverable, `/build [skill]` pulls from everything the wiki knows.
+
+<img src="UsingObsidian.png" width="900" alt="Marketing Codex wiki open in Obsidian, showing wikilinked concept pages and graph view" />
+
 ## Structure
 
 ```
