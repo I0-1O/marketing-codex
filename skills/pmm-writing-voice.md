@@ -10,7 +10,7 @@ updated: 2026-04-13
 
 Load this as context before drafting or reviewing any marketing copy. These are constraints, not preferences. They define what the voice sounds like, how sentences are built, and how benefits are framed.
 
-Draws from [[ai-voice-tells-in-marketing-copy]], [[marketing-voice-and-pov]], and [[benefit-ladder]].
+**Standalone skill** — no external files or wiki required. All rules are embedded here.
 
 ---
 
@@ -55,11 +55,33 @@ Make the affirmative case. Don't lead with what competitors can't do.
 ## Benefit Framing
 
 **Climb the benefit ladder. Stop one tier up.**
-Every feature has a direct effect. That is not the benefit. The benefit is what the direct effect makes possible at the business level.
 
-Apply the "so what?" test once. One level up is the sweet spot. Two levels up lands in platitudes ("achieve competitive advantage," "drive business growth").
+The benefit ladder has three tiers:
 
-See [[benefit-ladder]] for the full framework and examples.
+| Tier | What it is | Example |
+|---|---|---|
+| Feature | What the product does | "Drag-and-drop workflow builder" |
+| Direct effect | The immediate result of using it | "Non-technical users can build workflows without IT" |
+| Business outcome | What that result makes possible | "IT backlog shrinks; business teams ship faster" |
+
+The feature is not the benefit. The direct effect is rarely the benefit either. Apply "so what?" once — that lands you at the business outcome. Apply it twice and you're in platitude territory ("achieve competitive advantage," "drive business growth").
+
+**One level up is the sweet spot. Two levels up is noise.**
+
+---
+
+## AI Voice Tells
+
+These structural patterns signal AI-generated copy before you even read for content. When you see them, the copy needs a rewrite pass — not just a word swap.
+
+- **Em dashes used as connectors** — AI uses them to join two thoughts that should be two sentences.
+- **Hedging openers** — "It's worth noting," "Ultimately," "In other words," "Of course." Delete and start with the actual claim.
+- **Over-parallel structure** — Every bullet the same length. Every sentence the same rhythm. Real writing varies.
+- **Ladder-stacking** — Multiple benefit claims stacked in a single sentence without evidence for any of them.
+- **Vague amplifiers** — "Incredibly," "highly," "truly," "incredibly powerful." They add no information.
+- **Passive problem framing** — "Many organizations face challenges with..." A person faces the challenge. Name them.
+
+Brand voice is defined as much by what you exclude as what you include. A distinctive voice makes choices; AI copy tries to include everything and offend no one.
 
 ---
 
