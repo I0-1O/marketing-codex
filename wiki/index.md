@@ -20,27 +20,36 @@
 
 ## Skills
 
+All skills are standalone — no wiki dependency required. Skills with templates use the subfolder pattern (`skills/[name]/[name].md` + `skills/[name]/template.md`).
+
 - [[launch-artifact]] — Build a complete GTM campaign brief: objective, audience sequencing, channel strategy by funnel stage (ORB), messaging shift, content plan, timeline, and success metrics
 - [[slide-deck]] — Build a story-driven slide deck plan with per-slide content, visual direction, and speaker notes
 - [[pmm-writing-voice]] — Voice constraints and editing checklist for marketing copy; load before any drafting or review session
-- [[messaging-framework]] — Build a complete master messaging document: positioning, ICP, personas, pillars, VPs, objection handling, proof points
-- [[competitive-profile]] — Deep pre-battlecard research artifact; competitor + your product inputs; resolves messaging doc or approximates from website; 11-section output
-- [[competitive-brief]] — Build a competitive analysis brief on a named competitor; surfaces wiki intel and flags research gaps
-- [[battle-card]] — Generate a one-page sales battle card for a named competitor; designed for use in live deals
-- [[analyst-prep]] — Prepare a structured briefing package for an analyst meeting: agenda, key messages, anticipated questions
-- [[content-brief]] — Create a structured content brief for any marketing content type; pulls persona and messaging context from wiki
-- [[session-close]] — End-of-session checklist: index sync, wikilinks, hot.md, log, raw folder
+- [[messaging-framework]] — Build a complete master messaging document: positioning, ICP, personas, pillars, value props, objection handling, proof points
+- [[competitive-profile]] — Deep pre-battlecard research artifact; 11-section output; confidence-labeled sourcing discipline
+- [[competitive-brief]] — Build a 2–3 page competitive brief on a named competitor; buyer voice guidance embedded; flags research gaps
+- [[battle-card]] — Generate a one-page sales battle card for a named competitor; buyer voice guidance embedded; designed for use in live deals
+- [[analyst-prep]] — Prepare a structured briefing package for an analyst meeting: agenda, key messages, anticipated questions, what to avoid
+- [[content-brief]] — Create a structured content brief for any marketing content type; funnel stage alignment embedded
+- [[session-close]] — End-of-session checklist: index sync, wikilinks, hot.md, log, raw folder *(vault-only skill)*
 
 ---
 
 ## Templates
 
-- [[battle-card-template]] — One-page battle card: win themes, landmines, trap questions, topics to avoid, proof points, one-liner, know your enemy
-- [[competitive-brief-template]] — 2–3 page competitive brief: overview, positioning, strengths, weaknesses (sourced), differentiation, talk track, gaps
-- [[competitive-profile-template]] — 11-section deep research artifact: quick verdict through research gaps; pre-battlecard workup
-- [[messaging-framework-template]] — Full master messaging document: ICP, personas, pillars, value props, objection handling, proof points
-- [[launch-artifact-template]] — GTM campaign brief: objective, ICP, positioning, channel matrix, content plan, timeline, metrics
+Templates are colocated with their skill in `skills/[name]/template.md`. Only templates without a paired skill live in root `templates/`.
+
+**Root templates/ (no paired skill yet):**
 - [[one-pager-template]] — Product one-pager format
+
+**Colocated in skill subfolders:**
+- `skills/messaging-framework/template.md` — Full master messaging document: ICP, personas, pillars, value props, objection handling, proof points
+- `skills/competitive-profile/template.md` — 11-section deep research artifact: quick verdict through research gaps
+- `skills/competitive-brief/template.md` — 2–3 page competitive brief: overview, positioning, strengths, weaknesses (sourced), differentiation, talk track, gaps
+- `skills/battle-card/template.md` — One-page battle card: win themes, landmines, trap questions, topics to avoid, proof points, one-liner, know your enemy
+- `skills/launch-artifact/template.md` — GTM campaign brief: objective, ICP, positioning, channel matrix, content plan, timeline, metrics
+- `skills/content-brief/template.md` — Content brief: titles, audience, goal, key messages, outline, SEO, CTA
+- `skills/analyst-prep/template.md` — Analyst briefing prep: agenda, key messages, anticipated questions, what to avoid, knowledge gaps
 
 ---
 
@@ -58,7 +67,7 @@
 - [[objection-handling]] — Anticipating and structuring rebuttals to buyer resistance; upstream of battle cards
 - [[buyer-voice-intelligence]] — Mining sales call recordings for authentic buyer language; closes the gap between PMM copy and buyer vocabulary
 - [[ai-agent-skills-for-marketing]] — Pattern for packaging marketing workflows as markdown skill files for AI coding agents
-- [[ai-voice-tells-in-marketing-copy]] — Six structural patterns that signal AI-generated copy; editing checklist (origin: Brian Rieb)
+- [[ai-voice-tells-in-marketing-copy]] — Seven structural patterns that signal AI-generated copy; editing checklist (origin: Brian Rieb + Angus)
 - [[marketing-voice-and-pov]] — Brand voice comes from exclusion; copy requires a position; AI is drafting tool not finishing tool (origin: Brian Rieb)
 - [[benefit-ladder]] — Three-tier framework: Feature → Direct Effect → Business Outcome; "so what?" test applied once (origin: Brian Rieb)
 - [[presentation-as-story]] — Slides support, presenter carries; see-it/hear-it test; speaker notes structure; build-backwards method (origin: Brian Rieb)

@@ -3,7 +3,7 @@ type: template
 title: Battle Card Template
 output_type: battle-card
 created: 2026-04-10
-updated: 2026-04-14
+updated: 2026-04-22
 ---
 
 # Battle Card: [Your Product] vs. [Competitor]

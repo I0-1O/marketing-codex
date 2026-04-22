@@ -3,8 +3,10 @@ type: skill
 title: "Session Close"
 trigger: /session-close | end of session | close out the session
 created: 2026-04-13
-updated: 2026-04-13
+updated: 2026-04-22
 ---
+
+> **Vault-only skill.** This skill requires the full marketing-codex vault structure (`wiki/`, `hot.md`, `log.md`, `raw/`, `tutorials/`). It is not designed for standalone use. If you downloaded this skill file individually, it will not function as expected.
 
 ## Purpose
 
@@ -15,13 +17,18 @@ Run this at the end of every session. Catches the housekeeping that's easy to fo
 ## Checklist
 
 ### 1. Wiki Index — skills
-- [ ] Count `.md` files in `skills/` (excluding `.gitkeep`)
+Skills now use a mixed structure: some are flat `.md` files in `skills/`, others are subfolders where the skill definition is `skills/[name]/[name].md` and the template is `skills/[name]/template.md`.
+
+- [ ] Count skill definitions: flat `.md` files in `skills/` (excluding `.gitkeep` and `session-close.md` if it's in its own count) plus each `skills/[name]/[name].md` file in subfolders
 - [ ] Count skill entries in `wiki/index.md` under the Skills section
-- [ ] If counts don't match: read each unindexed skill file, add a one-line entry to the index
+- [ ] If counts don't match: read each unindexed skill, add a one-line entry to the index
 
 ### 2. Wiki Index — templates
-- [ ] Count `.md` files in `templates/` (excluding `.gitkeep`)
-- [ ] Count template entries in `wiki/index.md`
+Templates are now colocated with their skill in `skills/[name]/template.md`. Only templates without a paired skill live in root `templates/`.
+
+- [ ] Count templates in root `templates/` (these have no paired skill yet)
+- [ ] Count `template.md` files inside skill subfolders (`skills/*/template.md`)
+- [ ] Confirm `wiki/index.md` template entries reflect this structure
 - [ ] Add any missing entries
 
 ### 3. Wiki Index — examples

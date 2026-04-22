@@ -44,9 +44,9 @@ marketing-codex/
 
 **wiki/entities/**: One page per named entity — company, product, analyst, analyst firm, or person. Created and updated by `/ingest` or manually.
 
-**skills/**: Skill files define reusable Claude Code workflows. Each maps to a slash command and documents inputs, process steps, and output format.
+**skills/**: Skill files define reusable Claude Code workflows. Each maps to a slash command and documents inputs, process steps, and output format. Skills are standalone — no wiki dependency required to function. Skills with paired templates use the subfolder pattern: `skills/[name]/[name].md` + `skills/[name]/template.md`.
 
-**templates/**: Output format shells. Used by `/build` as the structure for generated deliverables.
+**templates/**: Output format shells without a paired skill. Currently holds only `one-pager-template.md`. Skills that have a template store it in their own subfolder — see Skill file organization below.
 
 **examples/**: Gold-standard completed outputs. Used by `/build` as quality references for few-shot prompting.
 
@@ -121,23 +121,44 @@ updated: ""
 ```
 Required sections: Purpose, Inputs, Process, Output Format, Example Usage
 
-**Skill file organization — flat until needed:**
+**Skill file organization:**
 
-Skills default to a single flat file: `skills/skill-name.md`. When a skill accumulates supporting files (skill-specific example output, partial prompt fragment, reference doc that only applies to this skill), promote it to a folder:
+Skills with a paired template (or any supporting file) use subfolders. The template lives at `skills/[name]/template.md`. Skills without supporting files stay flat.
 
+Current structure:
 ```
 skills/
-├── messaging-framework.md       # flat — no supporting files needed
+├── pmm-writing-voice.md         # flat — no template
+├── slide-deck.md                # flat — no template
+├── session-close.md             # flat — vault-only maintenance skill
+├── messaging-framework/
+│   ├── messaging-framework.md   # skill definition
+│   └── template.md              # output template
+├── competitive-profile/
+│   ├── competitive-profile.md
+│   └── template.md
+├── competitive-brief/
+│   ├── competitive-brief.md
+│   └── template.md
 ├── battle-card/
-│   ├── battle-card.md           # skill definition — same name as folder
-│   ├── example-output.md        # skill-specific example
-│   └── competitive-reference.md # supporting reference
+│   ├── battle-card.md
+│   └── template.md
+├── launch-artifact/
+│   ├── launch-artifact.md
+│   └── template.md
+├── content-brief/
+│   ├── content-brief.md
+│   └── template.md
+└── analyst-prep/
+    ├── analyst-prep.md
+    └── template.md
 ```
 
 Rules:
 - Skill definition file always shares the name of its folder (so `/build battle-card` resolves predictably)
+- Templates live in the skill subfolder — not in root `templates/`
 - Generic examples belong in `examples/` — only skill-specific files go in the skill folder
-- Don't create a folder preemptively; promote when the second file is needed
+- All skills are self-contained: no wiki dependency required to function
 
 `/build` resolution order: look for `skills/[name].md` first, then `skills/[name]/[name].md`.
 

@@ -3,7 +3,7 @@ type: template
 title: Competitive Profile Template
 output_type: competitive-profile
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-04-22
 ---
 
 # Competitive Profile: [Your Product] vs. [Competitor]
@@ -195,8 +195,8 @@ updated: 2026-04-14
 - [Source 1] — [what it informed] — [date accessed]
 - [Source 2] — [what it informed] — [date accessed]
 - [Training data] — [which sections relied on this; note cutoff risk]
-- [Wiki sources] — [relevant vault pages used]
+- [User-provided intel] — [relevant docs or notes used]
 
 ---
 
-*Distill this profile into a [[battle-card]] for rep use. Feed into [[messaging-framework]] updates if vulnerabilities reveal positioning gaps.*
+*Distill this profile into a battle card for rep use. Feed into messaging-framework updates if vulnerabilities reveal positioning gaps.*

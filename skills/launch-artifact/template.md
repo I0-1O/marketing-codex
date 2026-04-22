@@ -3,7 +3,7 @@ type: template
 title: "Launch Artifact / GTM Campaign Brief"
 output_type: launch-artifact
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-04-22
 ---
 
 # [Campaign Name]

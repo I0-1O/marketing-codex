@@ -3,7 +3,7 @@ type: template
 title: "Master Messaging Document"
 output_type: messaging-framework
 created: 2026-04-10
-updated: 2026-04-13
+updated: 2026-04-22
 ---
 
 # [Product Name] — Master Messaging Document
@@ -232,7 +232,7 @@ updated: 2026-04-13
 
 **vs. [Competitor / Alternative 2]:** *[1–2 sentence reframe.]*
 
-*For detailed competitive intelligence, see `wiki/entities/[competitor-name].md` and `skills/competitive-brief.md`.*
+*For detailed competitive intelligence per competitor, use the competitive-profile or competitive-brief skill.*
 
 ---
 

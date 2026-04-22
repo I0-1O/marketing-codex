@@ -7,7 +7,8 @@ Reverse-chronological activity log. Appended by `/ingest`, `/lint`, `/build`, an
 - **created**: wiki/concepts/antithesis-positioning-pattern.md — "It's not X, it's Y" as AI tell and positioning shortcut; mechanism, why AI reaches for it, the fix
 - **created**: wiki/entities/jeff-angus.md — author, Marketing That Matters newsletter
 - **updated**: wiki/concepts/ai-voice-tells-in-marketing-copy.md — added 7th tell (antithesis construction), updated checklist, added sources and related concept links
-- **updated**: wiki/index.md — added source, concept, entity
+- **updated**: wiki/index.md — added source, concept, entity; corrected ai-voice-tells entry to "seven patterns"
+- **session**: single ingest (Angus); antithesis pattern catalogued as 7th AI voice tell; 3 new pages, 1 updated concept; vault at 12 concepts / 16 entities / 9 sources
 
 ## 2026-04-14
 - **lint**: 1 dead link (hash anchor syntax in stop-building-ugly-slides.md:74) — fixed; 0 orphans; 0 frontmatter gaps

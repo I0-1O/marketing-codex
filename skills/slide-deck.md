@@ -3,18 +3,29 @@ type: skill
 title: "Slide Deck Builder"
 trigger: "/build slide-deck [topic] [audience] [goal]"
 created: "2026-04-13"
-updated: "2026-04-13"
+updated: "2026-04-22"
 tags: [presentations, slides, storytelling, speaker-notes]
-related: ["[[slides-dont-talk]]", "[[presentation-as-story]]"]
 ---
-
-# Slide Deck Builder
 
 ## Purpose
 
 Build a structured, story-driven slide deck plan. Output describes each slide's content, visual direction, and speaker notes. Does not produce actual slide files unless explicitly asked — describes what goes on each slide and why.
 
 Grounded in the principle that **slides enhance the presenter; they don't replace them.** The speaker carries the story. The slides carry the emphasis.
+
+**Standalone skill** — no wiki or external files required. All principles and frameworks are embedded here.
+
+---
+
+## Design Philosophy
+
+Before building slides, understand why slides often fail:
+
+**The leave-behind fallacy:** Slide decks were originally designed for projection-only use. When decks started being emailed as leave-behinds, presenters compensated by cramming more text onto slides so they'd "make sense without a presenter." The result is slides that explain themselves — which means the audience reads instead of listens. A slide deck is not a document. If it needs to stand alone, write a document.
+
+**Narrative before structure:** Draft the story arc before building slides. What does the audience believe at the start? What do they need to believe at the end? What's the sequence that takes them from one to the other? Slides are containers for that story — they don't create it.
+
+**The see-it/hear-it principle:** Ask for every element on a slide: should the audience *see* this, or *hear* it? If they should hear it, it belongs in speaker notes, not on the slide. If it needs to be seen to land (a stat, a contrast, a position statement), it earns its place on the slide.
 
 ---
 

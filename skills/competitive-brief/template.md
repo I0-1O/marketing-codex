@@ -3,13 +3,13 @@ type: template
 title: Competitive Brief Template
 output_type: competitive-brief
 created: 2026-04-14
-updated: 2026-04-14
+updated: 2026-04-22
 ---
 
 # Competitive Brief: [Competitor Name]
 
 > Audience: Sales, PMM, product leadership. 2–3 pages max.
-> Last updated: [date] | Source: [[competitive-profile-[competitor]]] if available
+> Last updated: [date] | Source: [competitive profile date if used]
 
 ---
 
@@ -90,4 +90,4 @@ Their primary product is [name] — [one sentence on what it does]. [Secondary p
 
 ---
 
-*Distill into [[battle-card]] for rep use. Escalate to [[competitive-profile]] for deeper research.*
+*Distill into a battle card for rep use. Escalate to a competitive profile for deeper research.*
