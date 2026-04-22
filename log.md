@@ -2,6 +2,13 @@
 
 Reverse-chronological activity log. Appended by `/ingest`, `/lint`, `/build`, and session end.
 
+## 2026-04-22
+- **ingested**: https://marketingthatmatters.substack.com/p/marketing-that-matters-035-stop-turning → wiki/sources/stop-turning-antithesis-angus.md
+- **created**: wiki/concepts/antithesis-positioning-pattern.md — "It's not X, it's Y" as AI tell and positioning shortcut; mechanism, why AI reaches for it, the fix
+- **created**: wiki/entities/jeff-angus.md — author, Marketing That Matters newsletter
+- **updated**: wiki/concepts/ai-voice-tells-in-marketing-copy.md — added 7th tell (antithesis construction), updated checklist, added sources and related concept links
+- **updated**: wiki/index.md — added source, concept, entity
+
 ## 2026-04-14
 - **lint**: 1 dead link (hash anchor syntax in stop-building-ugly-slides.md:74) — fixed; 0 orphans; 0 frontmatter gaps
 - **session**: built out full competitive intel system — 3 ingests, 3 concepts, 3 entities, 1 new skill (competitive-profile), 2 updated skills (competitive-brief, battle-card), 2 new templates, 1 tutorial (competitive-intel-playbook); registered slash commands in ~/.claude/commands/

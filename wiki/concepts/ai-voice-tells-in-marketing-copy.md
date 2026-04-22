@@ -2,7 +2,7 @@
 type: concept
 title: "AI Voice Tells in Marketing Copy"
 created: "2026-04-12"
-updated: "2026-04-12"
+updated: "2026-04-22"
 origin: self
 tags: [copywriting, ai, voice, editing, product-marketing]
 related: [marketing-voice-and-pov]
@@ -38,6 +38,9 @@ Paragraph opens with a claim. Middle restates it with different words. End resta
 **6. Symmetrical structure (over-parallel construction)**
 Three pillars, each with exactly three bullets, each bullet the same length. Real ideas aren't that tidy. When content looks stamped from a mold, readers feel it. Note: parallel structure itself isn't a tell — over-application is the signal, especially in aggregate with other factors.
 
+**7. The "It's not X, it's Y" antithesis construction**
+Negation plus contrast: "It's not a gym, it's a movement." Feels like a bold position but communicates nothing specific. AI reaches for it because the pattern is overrepresented in marketing training data — it looks authoritative without requiring a defensible claim. The pattern has become an immediate reader signal precisely because of that overuse. See [[antithesis-positioning-pattern]].
+
 ## Before / After Example
 
 **AI default (circular structure):**
@@ -55,13 +58,16 @@ Apply as an editing checklist against any AI draft:
 - Flag every circular paragraph → add a position or progression, or cut
 - Flag every hedging opener → delete it, start with the actual claim
 - Flag over-parallel structures → vary length and rhythm deliberately
+- Flag any "It's not X, it's Y" construction → replace with a specific category claim and differentiator
 
 Can also be loaded as prompt guardrails before or during AI drafting.
 
 ## Related Concepts
 
 - [[marketing-voice-and-pov]]
+- [[antithesis-positioning-pattern]]
 
 ## Sources
 
 - [[writing-for-humans-killing-ai-voice]] ([[brian-rieb]])
+- [[stop-turning-antithesis-angus]] ([[jeff-angus]])

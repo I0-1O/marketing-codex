@@ -14,6 +14,7 @@
 - [[competitor-research-battlecard-momentum]] — Momentum AI prompt: six-step battlecard generator; URL-in, SWOT + objection pairs out; sales-use artifact
 - [[competitive-research-battlecard-creation-momentum]] — Momentum AI prompt v2 (GRACE framework, Coach K): 8-section output; adds landmines, topics to avoid, follow-up email sequences
 - [[30-minute-battlecard-doherty]] — Doherty (2026): three-phase AI workflow; competitive intel extraction, buyer voice, assembly; continuous intelligence framing
+- [[stop-turning-antithesis-angus]] — Angus (2026): "It's not X, it's Y" as AI tell and positioning shortcut; antithesis pattern mechanics and fix
 
 ---
 
@@ -64,6 +65,7 @@
 - [[leave-behind-fallacy]] — Why decks became documents and why that constraint is now obsolete (origin: Brian Rieb)
 - [[master-messaging-document]] — Three-pillar architecture; problem-named pillars; pain-first internal sequence; forest-and-trees diagnostic (origin: Brian Rieb)
 - [[problem-first-messaging]] — Empathy as discipline; customer voice vs. product voice; sitting in the problem before solving (origin: Brian Rieb)
+- [[antithesis-positioning-pattern]] — "It's not X, it's Y" rhetorical construction; AI tell and positioning shortcut; negation vs. category clarity
 
 ---
 
@@ -87,3 +89,4 @@
 - [[momentum]] — AI-powered Salesforce-native sales platform; acquired by Salesforce; prompt library at momentum.io/prompts
 - [[thomas-e-doherty]] — PMM author; "The AI-Accelerated GTM Playbook"; three-phase battlecard methodology
 - [[g2]] — B2B software review platform; primary source for buyer voice and competitive intelligence research
+- [[jeff-angus]] — Author, *Marketing That Matters* newsletter; copywriting craft, AI-generated copy patterns
