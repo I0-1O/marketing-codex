@@ -15,6 +15,7 @@
 - [[competitive-research-battlecard-creation-momentum]] — Momentum AI prompt v2 (GRACE framework, Coach K): 8-section output; adds landmines, topics to avoid, follow-up email sequences
 - [[30-minute-battlecard-doherty]] — Doherty (2026): three-phase AI workflow; competitive intel extraction, buyer voice, assembly; continuous intelligence framing
 - [[stop-turning-antithesis-angus]] — Angus (2026): "It's not X, it's Y" as AI tell and positioning shortcut; antithesis pattern mechanics and fix
+- [[hattie-pmm-claude-power-users]] — Hattie the PMM (2026): Claude tool reference table for PMMs; 10 tools mapped to use cases; core thesis: system setup > prompting
 
 ---
 
@@ -55,6 +56,8 @@ Templates are colocated with their skill in `skills/[name]/template.md`. Only te
 
 ## Tutorials
 
+- [[How to build your PMM Brain]] — Full setup walkthrough: Obsidian, Git, Claude Code, first ingest; ~30 minutes start to finish
+- [[Bootstrap]] — Original scaffold prompt used to generate this vault structure; reference for building a fork from scratch
 - [[competitive-intel-playbook]] — Four-artifact competitive system: what each doc is for, build order, update cadences, Claude Code scheduling
 - [[stop-building-ugly-slides]] — Primer: slide kit with PPTX deck, cheat sheet, and AI skill; the four offenses and core rules
   - [[cheat-sheet]] — Quick-reference rules: bullets, one concept per slide, speaker notes format
@@ -75,6 +78,7 @@ Templates are colocated with their skill in `skills/[name]/template.md`. Only te
 - [[master-messaging-document]] — Three-pillar architecture; problem-named pillars; pain-first internal sequence; forest-and-trees diagnostic (origin: Brian Rieb)
 - [[problem-first-messaging]] — Empathy as discipline; customer voice vs. product voice; sitting in the problem before solving (origin: Brian Rieb)
 - [[antithesis-positioning-pattern]] — "It's not X, it's Y" rhetorical construction; AI tell and positioning shortcut; negation vs. category clarity
+- [[pmm-ai-workflow-architecture]] — System-level Claude setup for PMMs; four leverage layers: Projects, Skills, Cowork, Connectors; power users build systems, not prompts
 
 ---
 
@@ -99,3 +103,4 @@ Templates are colocated with their skill in `skills/[name]/template.md`. Only te
 - [[thomas-e-doherty]] — PMM author; "The AI-Accelerated GTM Playbook"; three-phase battlecard methodology
 - [[g2]] — B2B software review platform; primary source for buyer voice and competitive intelligence research
 - [[jeff-angus]] — Author, *Marketing That Matters* newsletter; copywriting craft, AI-generated copy patterns
+- [[hattie-the-pmm]] — Product marketing coach; Visible & Valued PMM Challenge; productmarketers.com; Claude AI workflows for PMMs

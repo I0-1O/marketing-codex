@@ -5,32 +5,44 @@
 
 ---
 
-## Last Updated: 2026-04-22
+## Last Updated: 2026-04-27
 
 ### What Was Built This Session
 
-**Single ingest: Jeff Angus, "Stop turning everything into an antithesis" (Marketing That Matters #035, Feb 2026)**
+**Single ingest: Hattie the PMM, "How To Get The Most Out of Claude for Product Marketing Managers" (LinkedIn post + infographic, 2026-04)**
 
 **New pages (3):**
-- `wiki/sources/stop-turning-antithesis-angus.md` — source summary
-- `wiki/entities/jeff-angus.md` — author, Marketing That Matters newsletter
-- `wiki/concepts/antithesis-positioning-pattern.md` — "It's not X, it's Y" as AI tell and positioning shortcut
+- `wiki/sources/hattie-pmm-claude-power-users.md` — source summary with full Claude tool reference table (10 tools × PMM use case + 3 advanced hacks)
+- `wiki/entities/hattie-the-pmm.md` — product marketing coach; Visible & Valued PMM Challenge; productmarketers.com; ~47K LinkedIn followers
+- `wiki/concepts/pmm-ai-workflow-architecture.md` — system-level Claude setup for PMMs; four leverage layers; the gap between casual and power users is system architecture, not prompting skill
 
 **Updated (1):**
-- `wiki/concepts/ai-voice-tells-in-marketing-copy.md` — added 7th tell (antithesis/negation construction), updated editing checklist, added external source and related concept links
+- `wiki/concepts/ai-agent-skills-for-marketing.md` — added related link to pmm-ai-workflow-architecture (Claude Skills layer ≈ markdown skill files pattern for coding agents)
 
-**Core argument (Angus):** LLMs reproduce "It's not X, it's Y" because the pattern is overrepresented in marketing training data — it statistically looks authoritative. The pattern substitutes negation for positioning work. The fix: name the category, own it, differentiate within it.
+**Also fixed:**
+- `wiki/index.md` — added two previously unindexed tutorials: "How to Build Your PMM Brain" and "Bootstrap"
+
+---
+
+### Core Argument (Hattie)
+
+"Prompting is the weakest way to use Claude." The leverage gap is system architecture:
+1. **Projects** — context persistence; upload ICP/messaging/competitive intel once
+2. **Skills** — standing briefs; writing style, brief format, battle card structure baked in
+3. **Cowork** — local file access; reads Word, PDF, Excel without uploading
+4. **Connectors** — tool integrations; Slack, Drive, Notion, 50+
+
+Advanced hacks: stakeholder map briefing, pressure-test with skeptical Sales rep persona, Global Instructions for role context.
 
 **Connection to existing concepts:**
-- Antithesis pattern = 7th tell in `ai-voice-tells-in-marketing-copy`
-- Closely related to `marketing-voice-and-pov` (voice requires a position; negation avoids taking one)
-- Also touches `problem-first-messaging` (alternative framing: lead with specific problem, not abstract contrast)
+- Claude Skills layer ≈ `ai-agent-skills-for-marketing` (markdown skill files for coding agents — same system-thinking, different execution layer)
+- Cowork + Connectors are the natural delivery mechanism for `buyer-voice-intelligence` (call recordings, win/loss data)
 
 ---
 
 ### Current Wiki State
 
-**12 concepts** (6 origin: self) | **16 entities** | **9 sources** | **4 articles**
+**13 concepts** (6 origin: self) | **17 entities** | **10 sources** | **4 articles**
 
 **Skills (10):** messaging-framework, competitive-profile, competitive-brief, battle-card, launch-artifact, slide-deck, pmm-writing-voice, content-brief, analyst-prep, session-close
 
@@ -45,6 +57,7 @@
 - Buyer voice (call recordings + G2) is highest-signal competitive source
 - AI voice tells: 7 catalogued patterns; antithesis construction is the newest addition (external source)
 - `origin: self` on concepts derived from Brian's own writing; external sources don't inherit this flag
+- PMM AI leverage hierarchy: system architecture (Projects/Skills/Cowork/Connectors) > prompting
 
 ---
 

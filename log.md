@@ -2,6 +2,14 @@
 
 Reverse-chronological activity log. Appended by `/ingest`, `/lint`, `/build`, and session end.
 
+## 2026-04-27
+- **ingested**: https://www.linkedin.com/posts/hattiethepmm_prompting-is-the-weakest-way-to-use-claude-share-7450096258104561664-YR_P/ + infographic → wiki/sources/hattie-pmm-claude-power-users.md
+- **created**: wiki/entities/hattie-the-pmm.md — product marketing coach; Visible & Valued PMM Challenge; productmarketers.com
+- **created**: wiki/concepts/pmm-ai-workflow-architecture.md — system-level Claude setup for PMMs; four leverage layers (Projects, Skills, Cowork, Connectors); power users build systems, not prompts
+- **updated**: wiki/concepts/ai-agent-skills-for-marketing.md — added related link to pmm-ai-workflow-architecture
+- **updated**: wiki/index.md — added source, entity, concept; added two previously unindexed tutorials (How to Build Your PMM Brain, Bootstrap)
+- **session**: single ingest (Hattie the PMM); pmm-ai-workflow-architecture added as new concept (system layers beat prompting); vault at 13 concepts / 17 entities / 10 sources
+
 ## 2026-04-22
 - **ingested**: https://marketingthatmatters.substack.com/p/marketing-that-matters-035-stop-turning → wiki/sources/stop-turning-antithesis-angus.md
 - **created**: wiki/concepts/antithesis-positioning-pattern.md — "It's not X, it's Y" as AI tell and positioning shortcut; mechanism, why AI reaches for it, the fix

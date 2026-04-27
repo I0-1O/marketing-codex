@@ -46,4 +46,4 @@ A pattern for packaging marketing knowledge and workflows as structured markdown
 
 ## Related Concepts
 
-*(none yet — expand as vault grows)*
+- [[pmm-ai-workflow-architecture]] — system-level AI setup for PMMs using Claude products; Skills layer is the Claude equivalent of this markdown pattern
