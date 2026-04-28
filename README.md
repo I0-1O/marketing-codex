@@ -30,7 +30,9 @@ marketing-codex/
 ├── skills/                # Reusable Claude Code workflows (slash commands)
 ├── templates/             # Output format templates
 ├── examples/              # Gold-standard reference outputs for quality benchmarking
-└── tutorials/             # Guides for setting up and using the vault
+├── tutorials/             # Guides for setting up and using the vault
+└── tools/                 # Utility scripts for preprocessing content before ingestion
+    └── eml2md/            # Convert .eml email files to Markdown for Claude ingestion
 ```
 
 ### raw/ vs articles/
@@ -89,6 +91,14 @@ See the tutorials below. The setup guide walks through the full process in about
 ## Git conventions
 
 Commits use conventional format: `ingest: [source]`, `wiki: create [page]`, `wiki: update [page]`, `lint: fix [description]`, `skill: add [name]`, `template: add [name]`, `article: add [title]`.
+
+## Tools
+
+Standalone utility scripts for preprocessing content before ingestion. These are not Claude Code skills — run them directly from the terminal to prepare source material for `/ingest`.
+
+| Tool | What it does |
+|---|---|
+| `tools/eml2md/` | Convert `.eml` email files to clean Markdown with YAML frontmatter. Strips layout tables, prefers plain-text bodies, outputs Obsidian-compatible files. Supports single files, batch directories, and stdin. |
 
 ---
 

@@ -2,6 +2,13 @@
 
 Reverse-chronological activity log. Appended by `/ingest`, `/lint`, `/build`, and session end.
 
+## 2026-04-28
+- **created**: tools/eml2md/ — .eml to Markdown converter; strips layout tables, YAML frontmatter, batch + stdin modes; for preprocessing email archives before /ingest
+- **updated**: README.md (added tools/ to structure block and Tools section)
+- **updated**: CLAUDE.md (added tools/ to vault structure)
+- **updated**: wiki/concepts/pmm-ai-workflow-architecture.md (eml2md reference under Layer 3 — Local file access)
+- **updated**: wiki/index.md (added Tools section)
+
 ## 2026-04-27
 - **ingested**: https://www.linkedin.com/posts/hattiethepmm_prompting-is-the-weakest-way-to-use-claude-share-7450096258104561664-YR_P/ + infographic → wiki/sources/hattie-pmm-claude-power-users.md
 - **created**: wiki/entities/hattie-the-pmm.md — product marketing coach; Visible & Valued PMM Challenge; productmarketers.com

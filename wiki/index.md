@@ -82,6 +82,14 @@ Templates are colocated with their skill in `skills/[name]/template.md`. Only te
 
 ---
 
+## Tools
+
+Utility scripts for preprocessing content before ingestion. Not Claude Code skills — run standalone from the terminal.
+
+- `tools/eml2md/` — Convert `.eml` email files to clean Markdown with YAML frontmatter; strips layout tables; Obsidian-compatible output
+
+---
+
 ## Entities
 
 ### People

@@ -31,7 +31,9 @@ marketing-codex/
 │   └── entities/          # Companies, products, analysts, competitors
 ├── skills/                # Reusable Claude Code PMM workflows (slash commands)
 ├── templates/             # Output templates (battle cards, one-pagers, etc.)
-└── examples/              # Gold-standard reference outputs for few-shot prompting
+├── examples/              # Gold-standard reference outputs for few-shot prompting
+└── tools/                 # Utility scripts for preprocessing raw content
+    └── eml2md/            # .eml → Markdown converter; outputs Obsidian-compatible files
 ```
 
 **raw/**: Drop external source material here before ingesting. PDFs, copied articles, interview transcripts, analyst reports. Not tracked in git if PDF (see .gitignore).

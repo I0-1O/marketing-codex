@@ -31,7 +31,7 @@ Upload once: messaging framework, ICP, personas, competitive intel. Every sessio
 Define your writing style, brief format, or battle card structure in a reusable file Claude loads automatically. Output standards are consistent without instructions in every prompt. This is the Claude equivalent of the markdown skill files pattern used in [[ai-agent-skills-for-marketing]].
 
 **Layer 3 — Local file access (Cowork)**
-Point at folders of call recordings, analyst reports, win/loss data. Claude reads actual files — Word, PDF, Excel — and creates documents from what it finds. No uploading, no copy-pasting.
+Point at folders of call recordings, analyst reports, win/loss data. Claude reads actual files — Word, PDF, Excel — and creates documents from what it finds. No uploading, no copy-pasting. For email content, `tools/eml2md/` converts `.eml` archives to Markdown before ingestion.
 
 **Layer 4 — Tool integrations (Connectors)**
 Link Slack, Google Drive, Notion, and 50+ other tools. Claude can search Drive, pull Slack threads about feature requests, or reference a Notion roadmap mid-task — without the user bridging data manually.
