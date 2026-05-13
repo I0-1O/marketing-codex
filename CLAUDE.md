@@ -272,7 +272,10 @@ Entries in `log.md` follow this format, reverse-chronological:
 
 ## Git Conventions
 
-- Do NOT auto-commit. Git is managed via Obsidian Git plugin or manually.
+- **Work in the main checkout, not a worktree.** This repo is a wiki, not code. Brian uses Obsidian (with Obsidian Git) to review changes live and handle commits/syncs. Working in a worktree breaks that loop — Brian can't see edits in Obsidian until commits land on the remote and he pulls.
+  - If a session starts in a worktree (harness default), write changes directly to the main checkout path instead, or warn Brian so he can restart the session in the right directory.
+- **Do NOT commit or push.** Even when changes look complete, leave them as working-tree edits. Obsidian Git handles commits and syncs on Brian's cadence.
+  - Exception: only commit/push if Brian explicitly asks ("commit and push", "sync this for me"). Default answer to "are we done?" is "yes — Obsidian will pick it up."
 - If explicitly asked to commit, use conventional commit messages:
   - `ingest: [source-name]`
   - `wiki: create [page-name]`
