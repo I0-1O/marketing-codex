@@ -2,10 +2,10 @@
 type: concept
 title: "Master Messaging Document"
 created: "2026-04-12"
-updated: "2026-04-12"
+updated: "2026-05-12"
 origin: self
 tags: [messaging, positioning, product-marketing, frameworks, sales-enablement]
-related: [problem-first-messaging, benefit-ladder, presentation-as-story]
+related: [problem-first-messaging, benefit-ladder, presentation-as-story, safe-middle-copy]
 ---
 
 # Master Messaging Document
@@ -84,6 +84,7 @@ The fix: when PMs understand the doc is organized around customer problems, they
 - [[problem-first-messaging]] — the empathy work that must happen before the architecture can be built
 - [[benefit-ladder]] — defines the value proposition tier within each pillar (business outcome, not direct effect)
 - [[presentation-as-story]] — the messaging doc is what gives slide decks their narrative spine
+- [[safe-middle-copy]] — the homepage failure mode that shows up downstream when the messaging doc is missing, generic, or written for "everyone"
 
 ## Sources
 

@@ -3,6 +3,13 @@
 Reverse-chronological activity log. Appended by `/ingest`, `/lint`, `/build`, and session end.
 
 ## 2026-05-12
+- **ingested**: articles/your-homepage-is-written-for-nobody.md → wiki/sources/your-homepage-is-written-for-nobody.md
+- **created**: wiki/concepts/safe-middle-copy.md — homepage failure mode (writing for nobody); buyer/user audience split; the multi-stop fix (origin: self)
+- **updated**: wiki/entities/brian-rieb.md — added Homepage / GTM Copy Philosophy section; new article reference
+- **updated**: wiki/concepts/benefit-ladder.md — cross-linked to safe-middle-copy (tier vs. reader failure modes)
+- **updated**: wiki/concepts/marketing-voice-and-pov.md — cross-linked to safe-middle-copy (exclusion failure at audience layer)
+- **updated**: wiki/concepts/master-messaging-document.md — cross-linked to safe-middle-copy (downstream symptom of a missing/generic messaging doc)
+- **updated**: wiki/index.md — added source, concept
 - **ingested**: https://ruben.substack.com/p/youre-just-a-text-file → wiki/sources/youre-just-a-text-file-hassid.md
 - **created**: wiki/entities/ruben-hassid.md — AI consultant; *How to AI* Substack; voice-as-text-file methodology
 - **created**: wiki/concepts/voice-as-text-file.md — encoding personal voice as a portable markdown file for AI consumption; 2-step process (interview → compress); 7 interview categories

@@ -5,7 +5,7 @@ created: "2026-04-12"
 updated: "2026-05-12"
 origin: self
 tags: [copywriting, brand-voice, positioning, product-marketing, voice]
-related: [ai-voice-tells-in-marketing-copy, voice-as-text-file]
+related: [ai-voice-tells-in-marketing-copy, voice-as-text-file, safe-middle-copy]
 ---
 
 # Marketing Voice and Point of View
@@ -54,6 +54,7 @@ The practical workflow:
 
 - [[ai-voice-tells-in-marketing-copy]]
 - [[voice-as-text-file]] — encoding voice as a portable markdown file for AI consumption ([[ruben-hassid]])
+- [[safe-middle-copy]] — voice-from-exclusion applied at the audience layer; refusing to exclude a reader produces text that addresses no one
 
 ## Sources
 

@@ -2,10 +2,10 @@
 type: concept
 title: "Benefit Ladder"
 created: "2026-04-12"
-updated: "2026-04-12"
+updated: "2026-05-12"
 origin: self
 tags: [copywriting, positioning, value-proposition, product-marketing, messaging]
-related: [marketing-voice-and-pov, ai-voice-tells-in-marketing-copy]
+related: [marketing-voice-and-pov, ai-voice-tells-in-marketing-copy, safe-middle-copy]
 ---
 
 # Benefit Ladder
@@ -85,6 +85,7 @@ Slack's early "email killer" positioning (reduce internal email 75%) was the dir
 
 - [[marketing-voice-and-pov]] — voice requires position; benefit ladder is one mechanism for finding and stating the position
 - [[ai-voice-tells-in-marketing-copy]] — AI copy systematically lands at the direct effect tier
+- [[safe-middle-copy]] — adjacent failure mode at the audience layer; benefit ladder fixes the *tier*, safe-middle fixes the *reader*
 
 ## Sources
 

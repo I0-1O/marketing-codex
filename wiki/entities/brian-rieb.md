@@ -3,7 +3,7 @@ type: entity
 title: "Brian Rieb"
 entity_type: person
 created: "2026-04-12"
-updated: "2026-04-12"  # updated after benefit-ladder ingest
+updated: "2026-05-12"  # updated after safe-middle-copy ingest
 tags: [person, pmm, author, vault-owner]
 ---
 
@@ -57,8 +57,18 @@ From [[slides-dont-talk]]:
 - Pyramid Principle: use it to think, use the story to present
 - Built internal deck "Stop Building Ugly Slides" aimed at engineers and product people
 
+## Homepage / GTM Copy Philosophy
+
+From [[your-homepage-is-written-for-nobody]]:
+- The homepage has two readers — the user (practitioner) and the buyer (signer) — and most companies write for neither by hedging both
+- "Safe-middle copy" is the failure mode: a sentence the buyer cannot disagree with and the user cannot picture
+- The fix is multi-stop, not single-target: hero for the buyer (outcome + mechanism), next section for the user (the specific motion inside the product)
+- Test: if your competitor could swap their logo onto your homepage and ship it, the page is written for nobody
+- See [[safe-middle-copy]]
+
 ## Sources
 
 - [[writing-for-humans-killing-ai-voice]]
 - [[benefit-ladder-copy-lands-one-tier-too-low]]
 - [[slides-dont-talk]]
+- [[your-homepage-is-written-for-nobody]]

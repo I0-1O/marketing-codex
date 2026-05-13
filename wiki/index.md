@@ -17,6 +17,7 @@
 - [[stop-turning-antithesis-angus]] — Angus (2026): "It's not X, it's Y" as AI tell and positioning shortcut; antithesis pattern mechanics and fix
 - [[hattie-pmm-claude-power-users]] — Hattie the PMM (2026): Claude tool reference table for PMMs; 10 tools mapped to use cases; core thesis: system setup > prompting
 - [[youre-just-a-text-file-hassid]] — Ruben Hassid (2026): encode your voice as a 2,000–5,000 token markdown file; 100-question / 7-category interview; portable across Claude/ChatGPT/Gemini/Grok
+- [[your-homepage-is-written-for-nobody]] — Brian Rieb article: SaaS homepages fail by writing for nobody; buyer-vs-user audience split; safe-middle copy and the multi-stop fix (full text in articles/)
 
 ---
 
@@ -81,6 +82,7 @@ Templates are colocated with their skill in `skills/[name]/template.md`. Only te
 - [[antithesis-positioning-pattern]] — "It's not X, it's Y" rhetorical construction; AI tell and positioning shortcut; negation vs. category clarity
 - [[pmm-ai-workflow-architecture]] — System-level Claude setup for PMMs; four leverage layers: Projects, Skills, Cowork, Connectors; power users build systems, not prompts
 - [[voice-as-text-file]] — Encoding personal voice as a portable 2,000–5,000 token markdown file for AI consumption; 7 interview categories; team-scaling pattern (origin: Ruben Hassid)
+- [[safe-middle-copy]] — Homepage failure mode: writing for nobody to avoid alienating either buyer or user; the multi-stop fix (origin: Brian Rieb)
 
 ---
 
