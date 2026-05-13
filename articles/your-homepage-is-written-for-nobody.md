@@ -12,7 +12,7 @@ tags: [messaging, positioning, homepage, copywriting, gtm]
 
 # Your Homepage Is Written for Nobody
 
-Most SaaS homepages are vague on purpose. Not strategy — accident. The page is trying to talk to two readers at once, hedges every claim to keep both interested, and ends up speaking to neither. You scroll through three sections of soft verbs and abstract nouns and walk away with no idea what the software does. That is not your fault as the reader. That is the page failing.
+Most SaaS homepages are vague on purpose. Not strategy. Accident. The page is trying to talk to two readers at once, hedges every claim to keep both interested, and ends up speaking to neither. You scroll through three sections of soft verbs and abstract nouns and walk away with no idea what the software does. That is not your fault as the reader. That is the page failing.
 
 ## A Line, Dissected
 
@@ -22,7 +22,7 @@ Here is a homepage banner I have seen some version of a hundred times:
 
 Read it. Now tell me what the product is.
 
-You can't. Every word is a placeholder. "Empower" is a feeling, not a mechanism. "Your teams" — which teams? Sales? Engineering? Legal? "Best work" — by whose definition, against what baseline? The sentence is built entirely from words that survive any audit because they commit to nothing.
+You can't. Every word is a placeholder. "Empower" is a feeling, not a mechanism. "Your teams" ... which teams? Sales? Engineering? Legal? "Best work" by whose definition, against what baseline? The sentence is built entirely from words that survive any audit because they commit to nothing.
 
 And it is doing exactly what it was designed to do. It does not exclude anyone. A CFO can squint at it and imagine cost savings. An IT director can squint and imagine governance. A practitioner can squint and imagine a better Monday. All of them are squinting. NONE of them are nodding.
 
