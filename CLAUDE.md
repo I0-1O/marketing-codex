@@ -293,6 +293,7 @@ company/
 │   ├── concepts/
 │   └── entities/
 ├── skills/
+├── tools/
 ├── templates/
 └── examples/
 ```
