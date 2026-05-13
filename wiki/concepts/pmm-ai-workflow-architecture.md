@@ -2,7 +2,7 @@
 type: concept
 title: "PMM AI Workflow Architecture"
 created: "2026-04-27"
-updated: "2026-04-27"
+updated: "2026-05-12"
 origin: external
 tags: [ai-tools, claude, workflows, productivity, pmm, systems-thinking]
 related: [ai-agent-skills-for-marketing, buyer-voice-intelligence, voice-as-text-file]

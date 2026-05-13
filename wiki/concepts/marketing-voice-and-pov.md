@@ -2,7 +2,7 @@
 type: concept
 title: "Marketing Voice and Point of View"
 created: "2026-04-12"
-updated: "2026-04-12"
+updated: "2026-05-12"
 origin: self
 tags: [copywriting, brand-voice, positioning, product-marketing, voice]
 related: [ai-voice-tells-in-marketing-copy, voice-as-text-file]

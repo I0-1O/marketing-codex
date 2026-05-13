@@ -2,7 +2,7 @@
 type: concept
 title: "AI Voice Tells in Marketing Copy"
 created: "2026-04-12"
-updated: "2026-04-22"
+updated: "2026-05-12"
 origin: self
 tags: [copywriting, ai, voice, editing, product-marketing]
 related: [marketing-voice-and-pov, voice-as-text-file]
