@@ -210,8 +210,9 @@ created: ""
 4. Extract concepts → create or update pages in `wiki/concepts/`
    - For concepts originating from Brian's articles, add `origin: self` to frontmatter
 5. Add wikilinks between all new and existing pages
-6. Update `wiki/index.md`
-7. Append to `log.md`
+6. **Bump the `updated` frontmatter field to today's date on every existing page you modify** (including pages touched only to add a cross-link). New pages get today's date in both `created` and `updated`.
+7. Update `wiki/index.md`
+8. Append to `log.md`
 
 ### /query [question]
 1. Read `wiki/hot.md` for recent context

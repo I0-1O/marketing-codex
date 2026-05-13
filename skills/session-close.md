@@ -40,6 +40,10 @@ Templates are now colocated with their skill in `skills/[name]/template.md`. Onl
 - [ ] For each page created this session: confirm it has inbound wikilinks from at least one other page
 - [ ] For each concept or entity created: confirm it's referenced from a source or related concept page
 
+### 4a. Frontmatter `updated` field
+- [ ] For each existing page modified this session (including cross-link-only edits): confirm the `updated` frontmatter field is bumped to today's date
+- [ ] New pages should have today's date in both `created` and `updated`
+
 ### 5. Update hot.md
 - [ ] Summarize what was built, decided, or changed this session (what, not how)
 - [ ] Note the current inventory counts: concepts, entities, sources, skills
