@@ -5,7 +5,7 @@ created: "2026-04-12"
 updated: "2026-04-22"
 origin: self
 tags: [copywriting, ai, voice, editing, product-marketing]
-related: [marketing-voice-and-pov]
+related: [marketing-voice-and-pov, voice-as-text-file]
 ---
 
 # AI Voice Tells in Marketing Copy
@@ -66,6 +66,7 @@ Can also be loaded as prompt guardrails before or during AI drafting.
 
 - [[marketing-voice-and-pov]]
 - [[antithesis-positioning-pattern]]
+- [[voice-as-text-file]] — the inverse pattern: encode the voice you want into a portable file
 
 ## Sources
 

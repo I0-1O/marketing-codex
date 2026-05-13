@@ -16,6 +16,7 @@
 - [[30-minute-battlecard-doherty]] — Doherty (2026): three-phase AI workflow; competitive intel extraction, buyer voice, assembly; continuous intelligence framing
 - [[stop-turning-antithesis-angus]] — Angus (2026): "It's not X, it's Y" as AI tell and positioning shortcut; antithesis pattern mechanics and fix
 - [[hattie-pmm-claude-power-users]] — Hattie the PMM (2026): Claude tool reference table for PMMs; 10 tools mapped to use cases; core thesis: system setup > prompting
+- [[youre-just-a-text-file-hassid]] — Ruben Hassid (2026): encode your voice as a 2,000–5,000 token markdown file; 100-question / 7-category interview; portable across Claude/ChatGPT/Gemini/Grok
 
 ---
 
@@ -79,6 +80,7 @@ Templates are colocated with their skill in `skills/[name]/template.md`. Only te
 - [[problem-first-messaging]] — Empathy as discipline; customer voice vs. product voice; sitting in the problem before solving (origin: Brian Rieb)
 - [[antithesis-positioning-pattern]] — "It's not X, it's Y" rhetorical construction; AI tell and positioning shortcut; negation vs. category clarity
 - [[pmm-ai-workflow-architecture]] — System-level Claude setup for PMMs; four leverage layers: Projects, Skills, Cowork, Connectors; power users build systems, not prompts
+- [[voice-as-text-file]] — Encoding personal voice as a portable 2,000–5,000 token markdown file for AI consumption; 7 interview categories; team-scaling pattern (origin: Ruben Hassid)
 
 ---
 
@@ -112,3 +114,4 @@ Utility scripts for preprocessing content before ingestion. Not Claude Code skil
 - [[g2]] — B2B software review platform; primary source for buyer voice and competitive intelligence research
 - [[jeff-angus]] — Author, *Marketing That Matters* newsletter; copywriting craft, AI-generated copy patterns
 - [[hattie-the-pmm]] — Product marketing coach; Visible & Valued PMM Challenge; productmarketers.com; Claude AI workflows for PMMs
+- [[ruben-hassid]] — AI consultant; *How to AI* Substack (~520K weekly readers); voice-as-text-file methodology; Fortune 500 advisor

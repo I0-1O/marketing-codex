@@ -5,44 +5,38 @@
 
 ---
 
-## Last Updated: 2026-04-27
+## Last Updated: 2026-05-12
 
 ### What Was Built This Session
 
-**Single ingest: Hattie the PMM, "How To Get The Most Out of Claude for Product Marketing Managers" (LinkedIn post + infographic, 2026-04)**
+**Single ingest: Ruben Hassid, "I Can Be You — You're Just a Text File" (How to AI Substack, 2026-05-03)**
 
 **New pages (3):**
-- `wiki/sources/hattie-pmm-claude-power-users.md` — source summary with full Claude tool reference table (10 tools × PMM use case + 3 advanced hacks)
-- `wiki/entities/hattie-the-pmm.md` — product marketing coach; Visible & Valued PMM Challenge; productmarketers.com; ~47K LinkedIn followers
-- `wiki/concepts/pmm-ai-workflow-architecture.md` — system-level Claude setup for PMMs; four leverage layers; the gap between casual and power users is system architecture, not prompting skill
+- `wiki/sources/youre-just-a-text-file-hassid.md` — source synopsis; 2-step process, 7 interview categories, recommended stack, anticipated objections
+- `wiki/entities/ruben-hassid.md` — AI consultant; *How to AI* Substack (~520K weekly readers); Fortune 500 advisor; voice-as-text-file methodology
+- `wiki/concepts/voice-as-text-file.md` — encoding personal voice as a portable 2,000–5,000 token markdown file for AI consumption (origin: external)
 
-**Updated (1):**
-- `wiki/concepts/ai-agent-skills-for-marketing.md` — added related link to pmm-ai-workflow-architecture (Claude Skills layer ≈ markdown skill files pattern for coding agents)
-
-**Also fixed:**
-- `wiki/index.md` — added two previously unindexed tutorials: "How to Build Your PMM Brain" and "Bootstrap"
+**Updated (3 cross-links):**
+- `wiki/concepts/ai-voice-tells-in-marketing-copy.md` — added voice-as-text-file as related (framed as inverse pattern: what to encode vs. exclude)
+- `wiki/concepts/marketing-voice-and-pov.md` — added voice-as-text-file as related
+- `wiki/concepts/pmm-ai-workflow-architecture.md` — added voice-as-text-file as the "personal-voice layer" inside the architecture
 
 ---
 
-### Core Argument (Hattie)
+### Core Argument (Hassid)
 
-"Prompting is the weakest way to use Claude." The leverage gap is system architecture:
-1. **Projects** — context persistence; upload ICP/messaging/competitive intel once
-2. **Skills** — standing briefs; writing style, brief format, battle card structure baked in
-3. **Cowork** — local file access; reads Word, PDF, Excel without uploading
-4. **Connectors** — tool integrations; Slack, Drive, Notion, 50+
+"You're just a text file." A person's voice, taste, and decision-making patterns can be reduced to a 2,000–5,000 token markdown file via a 100-question interview across 7 categories (contrarian beliefs, writing mechanics, aesthetic dislikes, voice/personality, structure, hard refusals, trust signals). The file is portable across Claude/ChatGPT/Gemini/Grok. Setup: ~2 hours (90 min with voice dictation).
 
-Advanced hacks: stakeholder map briefing, pressure-test with skeptical Sales rep persona, Global Instructions for role context.
-
-**Connection to existing concepts:**
-- Claude Skills layer ≈ `ai-agent-skills-for-marketing` (markdown skill files for coding agents — same system-thinking, different execution layer)
-- Cowork + Connectors are the natural delivery mechanism for `buyer-voice-intelligence` (call recordings, win/loss data)
+**Connection to existing vault:**
+- Inverse of [[ai-voice-tells-in-marketing-copy]] — that catalogues what to *exclude*; Hassid catalogues what to *encode*
+- Operationalizes [[marketing-voice-and-pov]] — voice-from-exclusion theory now has a documentation pattern
+- Slots into [[pmm-ai-workflow-architecture]] as the missing "personal-voice layer" beneath Projects/Skills/Cowork/Connectors
 
 ---
 
 ### Current Wiki State
 
-**13 concepts** (6 origin: self) | **17 entities** | **10 sources** | **4 articles**
+**14 concepts** (6 origin: self, 1 new external) | **18 entities** | **11 sources** | **4 articles**
 
 **Skills (10):** messaging-framework, competitive-profile, competitive-brief, battle-card, launch-artifact, slide-deck, pmm-writing-voice, content-brief, analyst-prep, session-close
 
@@ -52,18 +46,19 @@ Advanced hacks: stakeholder map briefing, pressure-test with skeptical Sales rep
 
 ### Key Patterns Established (Cumulative)
 
-- Artifact chain enforced: messaging-doc → competitive-profile → competitive-brief → battle-card
+- Artifact chain: messaging-doc → competitive-profile → competitive-brief → battle-card
 - "Topics to avoid" is a named section in battle-card skill and template
 - Buyer voice (call recordings + G2) is highest-signal competitive source
-- AI voice tells: 7 catalogued patterns; antithesis construction is the newest addition (external source)
-- `origin: self` on concepts derived from Brian's own writing; external sources don't inherit this flag
-- PMM AI leverage hierarchy: system architecture (Projects/Skills/Cowork/Connectors) > prompting
+- AI voice tells: 7 catalogued patterns; voice-as-text-file is the inverse encoding pattern
+- `origin: self` on concepts derived from Brian's writing; external sources don't inherit this flag
+- PMM AI leverage hierarchy: system architecture > prompting; personal-voice file is the new individual layer
 
 ---
 
 ### Next Session Priorities
 
+- Consider building a `/build voice-file` skill that runs the Hassid 100-question interview
 - Build gold-standard example output for `competitive-profile`
 - Analyst-prep and content-brief skills have templates but no example outputs
 - Run `/lint` for a full vault health check
-- Consider ingesting more AI-voice / copywriting methodology sources (Angus has prior issues worth mining)
+- Tool name-drops from Hassid (Wispr Flow, Cowork, Obsidian) — decide if any deserve entity pages on next ingest

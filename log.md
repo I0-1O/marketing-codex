@@ -2,6 +2,15 @@
 
 Reverse-chronological activity log. Appended by `/ingest`, `/lint`, `/build`, and session end.
 
+## 2026-05-12
+- **ingested**: https://ruben.substack.com/p/youre-just-a-text-file → wiki/sources/youre-just-a-text-file-hassid.md
+- **created**: wiki/entities/ruben-hassid.md — AI consultant; *How to AI* Substack; voice-as-text-file methodology
+- **created**: wiki/concepts/voice-as-text-file.md — encoding personal voice as a portable markdown file for AI consumption; 2-step process (interview → compress); 7 interview categories
+- **updated**: wiki/concepts/ai-voice-tells-in-marketing-copy.md — added voice-as-text-file as related (inverse pattern: what to encode vs. what to exclude)
+- **updated**: wiki/concepts/marketing-voice-and-pov.md — added voice-as-text-file as related
+- **updated**: wiki/concepts/pmm-ai-workflow-architecture.md — added voice-as-text-file as related (the personal-voice layer inside the architecture)
+- **updated**: wiki/index.md — added 1 source, 1 entity (Hassid), 1 concept
+
 ## 2026-04-28
 - **created**: tools/eml2md/ — .eml to Markdown converter; strips layout tables, YAML frontmatter, batch + stdin modes; for preprocessing email archives before /ingest
 - **updated**: README.md (added tools/ to structure block and Tools section)

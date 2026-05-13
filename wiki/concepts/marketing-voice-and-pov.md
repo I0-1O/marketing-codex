@@ -5,7 +5,7 @@ created: "2026-04-12"
 updated: "2026-04-12"
 origin: self
 tags: [copywriting, brand-voice, positioning, product-marketing, voice]
-related: [ai-voice-tells-in-marketing-copy]
+related: [ai-voice-tells-in-marketing-copy, voice-as-text-file]
 ---
 
 # Marketing Voice and Point of View
@@ -53,6 +53,7 @@ The practical workflow:
 ## Related Concepts
 
 - [[ai-voice-tells-in-marketing-copy]]
+- [[voice-as-text-file]] — encoding voice as a portable markdown file for AI consumption ([[ruben-hassid]])
 
 ## Sources
 

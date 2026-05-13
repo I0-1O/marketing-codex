@@ -5,7 +5,7 @@ created: "2026-04-27"
 updated: "2026-04-27"
 origin: external
 tags: [ai-tools, claude, workflows, productivity, pmm, systems-thinking]
-related: [ai-agent-skills-for-marketing, buyer-voice-intelligence]
+related: [ai-agent-skills-for-marketing, buyer-voice-intelligence, voice-as-text-file]
 ---
 
 # PMM AI Workflow Architecture
@@ -60,3 +60,4 @@ Link Slack, Google Drive, Notion, and 50+ other tools. Claude can search Drive, 
 
 - [[ai-agent-skills-for-marketing]] — adjacent pattern: packaging marketing workflows as markdown skill files for AI coding agents (Claude Code, Cursor); same system-thinking, different execution layer
 - [[buyer-voice-intelligence]] — Cowork + Connectors are the natural delivery mechanism for win/loss and call recording analysis
+- [[voice-as-text-file]] — the personal-voice layer that sits inside this architecture ([[ruben-hassid]])
