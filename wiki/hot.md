@@ -5,47 +5,47 @@
 
 ---
 
-## Last Updated: 2026-05-12
+## Last Updated: 2026-05-21
 
 ### What Was Built This Session
 
-**Drafted + ingested a new Brian article: "Your Homepage Is Written for Nobody"**
+**Ingested: "Product Marketing Has a Scope Creep Problem — and the Data Proves It" (Mina @daccord7, Medium)**
 
-Co-drafted via back-and-forth using the new `about_me.xml` writing profile (`C:\Users\brieb\Downloads\about_me.xml`). Article lives at `articles/your-homepage-is-written-for-nobody.md`. ~720 words. Voice anchors deployed: `Look,` opener, conjunction starts, one ALL CAPS (NONE), one ellipsis ("Your teams"...), two parenthetical asides, no em dashes (caught and stripped after Brian flagged 8 in v1), no buzzwords, no TL;DR.
+URL: https://medium.com/@daccord7/product-marketing-has-a-scope-creep-problem-and-the-data-proves-it-857e81955f9f
 
-**New pages (2):**
-- `wiki/sources/your-homepage-is-written-for-nobody.md` — synopsis; links to full article
-- `wiki/concepts/safe-middle-copy.md` — the failure mode named in the piece; origin: self
+**New pages (4):**
+- `wiki/sources/pmm-scope-creep-daccord7.md` — source summary; Death by Adjacency framing; PMA 2024 data
+- `wiki/concepts/pmm-scope-creep.md` — concept page; three dynamics, charter fix, strategic outcome measurement
+- `wiki/entities/product-marketing-alliance.md` — industry association; annual PMM surveys; 2024 ownership data
+- `wiki/entities/mina-daccord7.md` — author; coined "Death by Adjacency"
 
-**Updated (4 cross-links):**
-- `wiki/entities/brian-rieb.md` — added Homepage / GTM Copy Philosophy section; new source link
-- `wiki/concepts/benefit-ladder.md` — cross-linked to safe-middle (tier vs. reader)
-- `wiki/concepts/marketing-voice-and-pov.md` — cross-linked (exclusion failure at audience layer)
-- `wiki/concepts/master-messaging-document.md` — cross-linked (downstream symptom)
-
----
-
-### Core Argument (Brian, new article)
-
-Most SaaS homepages are vague because marketing writes for **nobody**. The page has two readers — the **user** (practitioner who will live in the product) and the **buyer** (exec who signs) — and hedging both produces sentences the buyer cannot disagree with and the user cannot picture. "Safe-middle copy." Then the approval cycle finishes the job: every reviewer adds a hedge until the headline only asserts the company exists.
-
-Fix: the homepage is not a billboard — it's the first stop on a multi-stop trip. Hero for the buyer (outcome + mechanism). Next section for the user (the specific motion inside the product). Both find their evidence on the same page in the order they care about it.
-
-Test: if your competitor could swap their logo onto your homepage and ship it, the page is written for nobody.
+**Updated (2 cross-links):**
+- `wiki/concepts/master-messaging-document.md` — scope creep displaces the strategic focus needed to build good messaging architecture
+- `wiki/concepts/pmm-ai-workflow-architecture.md` — AI reclaims capacity but doesn't fix a charter problem
 
 ---
 
-### Process Note for Next Session
+### Core Argument (Mina @daccord7)
 
-Brian provided a new writing-style profile XML. First-pass draft missed several anchors (em dashes leaked in, acronyms not spelled out, no signature `Look,` opener, no parenthetical asides). Second-pass audit against the full profile caught and fixed. **Pattern to remember:** when working from a voice profile, do a full pass against `hard_refusals`, `phrase_bank avoid`, and `signature_tells` before declaring a draft done — those are the lists that catch the small voice violations.
+PMM has become an organizational miscellaneous drawer. The role originated with a focused charter but has expanded to 8–12+ functional areas driven by three dynamics: PMMs attract delegation (they handle ambiguity well), revenue proximity makes them default connective tissue, and organizations confuse *strategic influence* with *operational ownership*. The named pattern: **Death by Adjacency**.
+
+The fix is structural, not tactical: explicitly document what PMM owns, influences, and does not do. Measure strategic outcomes (win-rate influence, message adoption, competitive displacement) not activity volume. Be a market intelligence engine, not a slide factory.
+
+**Data point**: 2024 Product Marketing Alliance survey — PMMs commonly work across "8–12 distinct functional areas, with many reporting unclear ownership boundaries."
+
+---
+
+### Prior Session Context (2026-05-12)
+
+Drafted + ingested Brian's article "Your Homepage Is Written for Nobody." Co-drafted via `about_me.xml` writing profile. Key concept: **safe-middle copy** — writing for nobody to avoid alienating buyer or user.
+
+**Pattern to remember:** when working from Brian's voice profile, do a full pass against `hard_refusals`, `phrase_bank avoid`, and `signature_tells` before declaring a draft done.
 
 ---
 
 ### Current Wiki State
 
-**15 concepts** (7 origin: self) | **18 entities** | **12 sources** | **5 articles**
-
-**Skills (10):** unchanged this session.
+**16 concepts** (7 origin: self) | **20 entities** | **13 sources** | **5 articles** | **10 skills**
 
 ---
 

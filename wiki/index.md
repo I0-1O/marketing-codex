@@ -18,6 +18,7 @@
 - [[hattie-pmm-claude-power-users]] — Hattie the PMM (2026): Claude tool reference table for PMMs; 10 tools mapped to use cases; core thesis: system setup > prompting
 - [[youre-just-a-text-file-hassid]] — Ruben Hassid (2026): encode your voice as a 2,000–5,000 token markdown file; 100-question / 7-category interview; portable across Claude/ChatGPT/Gemini/Grok
 - [[your-homepage-is-written-for-nobody]] — Brian Rieb article: SaaS homepages fail by writing for nobody; buyer-vs-user audience split; safe-middle copy and the multi-stop fix (full text in articles/)
+- [[pmm-scope-creep-daccord7]] — Mina @daccord7 (2026): PMM as organizational miscellaneous drawer; Death by Adjacency; PMA 2024 data; charter definition and strategic outcome measurement
 
 ---
 
@@ -83,6 +84,7 @@ Templates are colocated with their skill in `skills/[name]/template.md`. Only te
 - [[pmm-ai-workflow-architecture]] — System-level Claude setup for PMMs; four leverage layers: Projects, Skills, Cowork, Connectors; power users build systems, not prompts
 - [[voice-as-text-file]] — Encoding personal voice as a portable 2,000–5,000 token markdown file for AI consumption; 7 interview categories; team-scaling pattern (origin: Ruben Hassid)
 - [[safe-middle-copy]] — Homepage failure mode: writing for nobody to avoid alienating either buyer or user; the multi-stop fix (origin: Brian Rieb)
+- [[pmm-scope-creep]] — "Death by Adjacency": PMM absorbs 8–12+ functional areas due to proximity to revenue; fix is explicit charter definition and strategic outcome measurement
 
 ---
 
@@ -108,6 +110,8 @@ Utility scripts for preprocessing content before ingestion. Not Claude Code skil
 - [[barbara-minto]] — Pyramid Principle; use it to think, not to present
 
 ### Companies & Products
+- [[product-marketing-alliance]] — Industry association; annual PMM surveys; 2024 data: 8–12 functional areas, unclear ownership
+- [[mina-daccord7]] — PMM writer on Medium (@daccord7); coined "Death by Adjacency"; analytical take on structural PMM role problems
 - [[mailchimp]] — Email marketing platform; gold-standard open-source brand voice / style guide
 - [[37signals]] — Basecamp/HEY; founder-led combative brand voice; DHH + Jason Fried write under own names
 - [[slack]] — Positioning case study: "email killer" (direct effect) vs. faster decisions + searchable knowledge (business outcome)

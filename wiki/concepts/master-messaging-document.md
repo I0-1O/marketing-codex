@@ -2,10 +2,10 @@
 type: concept
 title: "Master Messaging Document"
 created: "2026-04-12"
-updated: "2026-05-12"
+updated: "2026-05-21"
 origin: self
 tags: [messaging, positioning, product-marketing, frameworks, sales-enablement]
-related: [problem-first-messaging, benefit-ladder, presentation-as-story, safe-middle-copy]
+related: [problem-first-messaging, benefit-ladder, presentation-as-story, safe-middle-copy, pmm-scope-creep]
 ---
 
 # Master Messaging Document
@@ -85,6 +85,7 @@ The fix: when PMs understand the doc is organized around customer problems, they
 - [[benefit-ladder]] — defines the value proposition tier within each pillar (business outcome, not direct effect)
 - [[presentation-as-story]] — the messaging doc is what gives slide decks their narrative spine
 - [[safe-middle-copy]] — the homepage failure mode that shows up downstream when the messaging doc is missing, generic, or written for "everyone"
+- [[pmm-scope-creep]] — the organizational condition (PMM overloaded with adjacent work) that prevents the strategic focus required to build and maintain a sound messaging architecture
 
 ## Sources
 

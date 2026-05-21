@@ -2,6 +2,16 @@
 
 Reverse-chronological activity log. Appended by `/ingest`, `/lint`, `/build`, and session end.
 
+## 2026-05-21
+- **ingested**: https://medium.com/@daccord7/product-marketing-has-a-scope-creep-problem-and-the-data-proves-it-857e81955f9f → wiki/sources/pmm-scope-creep-daccord7.md
+- **created**: wiki/concepts/pmm-scope-creep.md — "Death by Adjacency" pattern; PMM absorbs 8–12 functional areas; charter discipline and strategic outcome measurement
+- **created**: wiki/entities/product-marketing-alliance.md — industry association; PMM surveys; 2024 ownership data
+- **created**: wiki/entities/mina-daccord7.md — author; coined "Death by Adjacency"; organizational design take on PMM role
+- **updated**: wiki/concepts/master-messaging-document.md — cross-linked pmm-scope-creep (scope creep displaces strategic messaging work)
+- **updated**: wiki/concepts/pmm-ai-workflow-architecture.md — cross-linked pmm-scope-creep (AI reclaims capacity but doesn't fix a charter problem)
+- **updated**: wiki/index.md — added source, concept, 2 entities
+- **session**: ingested PMM scope creep article (Mina @daccord7); created Death by Adjacency concept; vault now 16 concepts / 20 entities / 13 sources
+
 ## 2026-05-12
 - **ingested**: articles/your-homepage-is-written-for-nobody.md → wiki/sources/your-homepage-is-written-for-nobody.md
 - **created**: wiki/concepts/safe-middle-copy.md — homepage failure mode (writing for nobody); buyer/user audience split; the multi-stop fix (origin: self)
